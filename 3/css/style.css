@@ -135,7 +135,7 @@ h6 {
 }
 .header .header__image {
   height: 658px;
-  background: url("/img/Header-bg.png") 0 0/cover no-repeat;
+  background: url("../img/Header-bg.png") 0 0/cover no-repeat;
   text-align: center;
 }
 .header .header__image h1 {
@@ -168,7 +168,7 @@ h6 {
 .about .about__head {
   width: 267px;
   height: 93px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -185,7 +185,7 @@ h6 {
 .about .about__text {
   width: 770px;
   height: 180px;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -202,7 +202,7 @@ h6 {
   margin-left: 135px;
 }
 .expertise .expertise__head h2 {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
@@ -309,7 +309,7 @@ h6 {
   height: 108px;
 }
 .expertise .expertise__text p {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -355,7 +355,7 @@ h6 {
   padding-bottom: 14px;
 }
 .expertise .expertise__services .item__text p {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -600,7 +600,7 @@ h6 {
 
 .video {
   height: 324px;
-  background-image: url(/img/Video.png);
+  background-image: url(../img/Video.png);
 }
 
 .facts {
@@ -754,10 +754,10 @@ h6 {
   margin: 0 auto;
   text-align: center;
 }
-.team .team__container .team__members img {
+.team .team__container .team__members div img {
   margin-bottom: 35px;
 }
-.team .team__container .team__members p:first-child {
+.team .team__container .team__members div .par-head {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -765,7 +765,7 @@ h6 {
   line-height: 17px;
   color: #333333;
 }
-.team .team__container .team__members p:last-child {
+.team .team__container .team__members div .par-prof {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 300;
