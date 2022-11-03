@@ -198,25 +198,72 @@
             & p {
                margin: 0;
                margin-top: 10px;
+               &:last-child {
+                  font-family: 'Montserrat', sans-serif;
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 16px;
+                  line-height: 20px;
+                  text-align: center;
+                  font-feature-settings: 'pnum' on, 'lnum' on;
+                  color: #FFFFFF;
+                  display: none;
+               }
             }
          }
          .col-one {
             background: url(../img/Frame1.png) 50% no-repeat;
+            &:hover {
+               background: linear-gradient(0deg, rgba(0, 32, 64, 0.5), rgba(0, 32, 64, 0.5)), url(../img/Frame1.png);
+               p:last-child {
+                  display: inline;
+               }
+            }
          }
          .col-two {
             background: url(../img/Frame2.png) 50% no-repeat;
+            &:hover {
+               background: linear-gradient(0deg, rgba(0, 32, 64, 0.5), rgba(0, 32, 64, 0.5)), url(../img/Frame2.png);
+               p:last-child {
+                  display: inline;
+               }
+            }
          }
          .col-three {
             background: url(../img/Frame3.png) 50% no-repeat;
+            &:hover {
+               background: linear-gradient(0deg, rgba(0, 32, 64, 0.5), rgba(0, 32, 64, 0.5)), url(../img/Frame3.png);
+               p:last-child {
+                  display: inline;
+               }
+            }
          }
          .col-four {
             background: url(../img/Frame4.png) 50% no-repeat;
+            &:hover {
+               background: linear-gradient(0deg, rgba(0, 32, 64, 0.5), rgba(0, 32, 64, 0.5)), url(../img/Frame4.png);
+               p:last-child {
+                  display: inline;
+               }
+            }
          }
          .col-five {
             background: url(../img/Frame5.png) 50% no-repeat;
+            &:hover {
+               background: linear-gradient(0deg, rgba(0, 32, 64, 0.5), rgba(0, 32, 64, 0.5)), url(../img/Frame5.png);
+               p:last-child {
+                  display: inline;
+               }
+            }
          }
          .col-six {
             background: url(../img/Frame6.png) 50% no-repeat;
+            &:hover {
+               background: linear-gradient(0deg, rgba(0, 32, 64, 0.5), rgba(0, 32, 64, 0.5)), url(../img/Frame6.png);
+               p:last-child {
+                  display: inline;
+               }
+            }
          }
       }
    }
@@ -235,5 +282,97 @@
       font-feature-settings: 'pnum' on, 'lnum' on;
       color: #000000;
       margin-bottom: 60px;
+   }
+}
+
+.build {
+   display: flex;
+   justify-content: center;
+   .build__wrapper {
+      width: 1280px;
+      height: 659px;
+      .build__title {
+         font-family: 'Montserrat', sans-serif;
+         font-style: normal;
+         font-weight: 600;
+         font-size: 36px;
+         line-height: 44px;
+         text-align: center;
+         font-feature-settings: 'pnum' on, 'lnum' on;
+         color: #000000;
+         margin-bottom: 40px;
+      }
+      .build__numbers {
+         display: flex;
+         justify-content: space-between;
+         background: #FFFFFF;
+         box-shadow: 0px 20px 20px rgba(0, 63, 128, 0.05);
+         border-radius: 92px;
+         .numbers__item--active {
+            border-radius: 72px;
+            width: 307.5px;
+            height: 72px;
+            margin: 10px;
+            background: linear-gradient(180deg, #409FFF 0%, #007FFF 100%);
+            & p {
+               font-family: 'Montserrat';
+               font-style: normal;
+               color: #fff;
+               text-align: center;
+               font-feature-settings: 'pnum' on, 'lnum' on;
+               margin: 0;
+               &:first-child {
+                  font-weight: 700;
+                  font-size: 16px;
+                  line-height: 20px;
+                  margin-bottom: 5px;
+                  padding-top: 15px;
+               }
+               &:last-child {
+                  font-weight: 500;
+                  font-size: 14px;
+                  line-height: 17px;
+               }
+            }
+         }
+         .numbers__item {
+            background: #F2F2F2;
+            border-radius: 72px;
+            width: 307.5px;
+            height: 72px;
+            margin: 10px;
+            & p {
+               font-family: 'Montserrat';
+               font-style: normal;
+               color: #BFBFBF;
+               text-align: center;
+               font-feature-settings: 'pnum' on, 'lnum' on;
+               margin: 0;
+               &:first-child {
+                  font-weight: 600;
+                  font-size: 16px;
+                  line-height: 20px;
+                  margin-bottom: 5px;
+                  padding-top: 15px;
+               }
+               &:last-child {
+                  font-weight: 400;
+                  font-size: 14px;
+                  line-height: 17px;
+               }
+            }
+            &:hover {
+               background: linear-gradient(180deg, #409FFF 0%, #007FFF 100%);
+               p:first-child {
+                  font-weight: 700;
+                  color: #fff;
+               }
+               p:last-child {
+                  font-weight: 500;
+                  color: #fff;
+               }
+            }
+         }
+      }
    }
 }
