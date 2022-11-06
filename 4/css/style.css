@@ -4,6 +4,18 @@
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #002040;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 .head {
@@ -23,13 +35,9 @@
   padding-top: 15px;
 }
 .header .header__nav {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
   font-weight: 500;
   line-height: 20px;
   text-align: center;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #002040;
   margin: 0 auto;
 }
 .header .header__nav ul {
@@ -57,24 +65,16 @@
 .header .header__contacts .contacts__text .tel {
   padding: 0;
   margin-bottom: 1px;
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 22px;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #002040;
 }
 .header .header__contacts .contacts__text .time {
   padding: 0;
   margin-bottom: 0;
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #002040;
 }
 .header .contacts__button {
   display: flex;
@@ -103,13 +103,9 @@
   position: relative;
 }
 .main .main__title p {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 54px;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #002040;
 }
 .main .main__title p span {
   color: #007FFF;
@@ -137,8 +133,6 @@
   background: linear-gradient(180deg, #409FFF 0%, #007FFF 100%);
   box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 32, 64, 0.1);
   border-radius: 79px;
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
   font-weight: 700;
   line-height: 20px;
   color: #fff;
@@ -174,17 +168,6 @@
 .life {
   margin-bottom: 160px;
 }
-.life .wrapper__life .life__title {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-  text-align: center;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #002040;
-  margin-bottom: 60px;
-}
 .life .wrapper__life .life__grid {
   height: 944px;
   display: grid;
@@ -205,26 +188,20 @@
   justify-content: center;
   align-items: center;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
   text-align: center;
-  font-feature-settings: "pnum" on, "lnum" on;
 }
 .life .wrapper__life .life__grid .col p {
   margin: 0;
   margin-top: 10px;
 }
 .life .wrapper__life .life__grid .col p:last-child {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
-  font-feature-settings: "pnum" on, "lnum" on;
   color: #FFFFFF;
   display: none;
 }
@@ -291,17 +268,6 @@
   height: 804px;
   margin-bottom: 160px;
 }
-.map .map__title {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-  text-align: center;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #000000;
-  margin-bottom: 60px;
-}
 
 .build {
   display: flex;
@@ -311,17 +277,6 @@
 .build .build__wrapper {
   width: 1280px;
   height: 659px;
-}
-.build .build__wrapper .build__title {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-  text-align: center;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #000000;
-  margin-bottom: 40px;
 }
 .build .build__wrapper .build__numbers {
   display: flex;
@@ -340,11 +295,8 @@
   background: linear-gradient(180deg, #409FFF 0%, #007FFF 100%);
 }
 .build .build__wrapper .build__numbers .numbers__item--active p {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
   color: #fff;
   text-align: center;
-  font-feature-settings: "pnum" on, "lnum" on;
   margin: 0;
 }
 .build .build__wrapper .build__numbers .numbers__item--active p:first-child {
@@ -367,11 +319,8 @@
   margin: 10px;
 }
 .build .build__wrapper .build__numbers .numbers__item p {
-  font-family: "Montserrat";
-  font-style: normal;
   color: #BFBFBF;
   text-align: center;
-  font-feature-settings: "pnum" on, "lnum" on;
   margin: 0;
 }
 .build .build__wrapper .build__numbers .numbers__item p:first-child {
@@ -480,12 +429,9 @@
   margin-bottom: 5px;
 }
 .build .build__wrapper .build__gallery .gallery__items .gallery__images .image-two .image__info .image__date {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 22px;
-  font-feature-settings: "pnum" on, "lnum" on;
   color: #FFFFFF;
 }
 .build .build__wrapper .build__gallery .gallery__items .gallery__images .image-three {
@@ -520,12 +466,9 @@
   margin-bottom: 5px;
 }
 .build .build__wrapper .build__gallery .gallery__items .gallery__images .image-three .image__info .image__date {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 22px;
-  font-feature-settings: "pnum" on, "lnum" on;
   color: #FFFFFF;
 }
 .build .build__wrapper .build__gallery .gallery__items .gallery__scroll {
@@ -564,25 +507,11 @@
   padding: 10px;
 }
 
-.graph .graph__wrapper .graph__title {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-  text-align: center;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #002040;
-  margin-bottom: 60px;
-}
 .graph .graph__wrapper .table .white-text {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
   text-align: center;
-  font-feature-settings: "pnum" on, "lnum" on;
   color: #FFFFFF;
 }
 .graph .graph__wrapper .table .gray-line {
@@ -601,17 +530,6 @@
 .tab .tab__wrapper {
   text-align: center;
 }
-.tab .tab__wrapper .tab__title {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-  text-align: center;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #002040;
-  margin-bottom: 60px;
-}
 .tab .tab__wrapper .tab__image a {
   text-align: center;
   box-shadow: 0px 20px 20px rgba(0, 63, 128, 0.05);
@@ -622,17 +540,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.plan .plan__title {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-  text-align: center;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #002040;
-  margin-bottom: 60px;
 }
 .plan .plan__wrapper {
   display: flex;
@@ -675,13 +582,10 @@
   border-radius: 50px;
   background: linear-gradient(180deg, #409FFF 0%, #007FFF 100%);
   border: none;
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
-  font-feature-settings: "pnum" on, "lnum" on;
   color: #FFFFFF;
   margin-right: 10px;
 }
@@ -691,13 +595,10 @@
   background: #F2F9FF;
   border-radius: 50px;
   border: none;
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
-  font-feature-settings: "pnum" on, "lnum" on;
   color: #007FFF;
 }
 .plan .plan__wrapper .plan__check .check__buttons .button-two:hover {
@@ -705,12 +606,8 @@
   color: #FFFFFF;
 }
 .plan .plan__wrapper .plan__check .check__title {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
   font-weight: 600;
   text-align: center;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #002040;
   margin-bottom: 20px;
 }
 .plan .plan__wrapper .plan__check .check__title p:first-child {
@@ -735,12 +632,9 @@
 .plan .plan__wrapper .plan__check .check__link a {
   text-decoration: none;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  font-feature-settings: "pnum" on, "lnum" on;
 }
 .plan .plan__wrapper .plan__check .check__link:hover {
   background: #007FFF;
@@ -754,14 +648,6 @@
   margin-bottom: 160px;
 }
 .photos .photo__title {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-  text-align: center;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #002040;
   margin-bottom: 70px;
 }
 .photos .photo__images {
@@ -815,17 +701,6 @@
   justify-content: center;
   align-items: center;
 }
-.buy .buy__title {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-  text-align: center;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #002040;
-  margin-bottom: 60px;
-}
 .buy .buy__wrapper {
   display: flex;
   justify-content: center;
@@ -857,12 +732,6 @@
 }
 .buy .buy__wrapper .buy__options .option__items .options__image img {
   padding: 30px;
-}
-.buy .buy__wrapper .buy__options .option__items .option__text p {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #002040;
 }
 .buy .buy__wrapper .buy__options .option__items .option__text p:first-child {
   font-weight: 600;
@@ -933,17 +802,6 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 160px;
-}
-.clients .clients__title {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-  text-align: center;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #002040;
-  margin-bottom: 60px;
 }
 .clients .clients__wrapper {
   display: flex;
@@ -1019,17 +877,6 @@
   align-items: center;
   margin-bottom: 200px;
 }
-.partners .partners__title {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-  text-align: center;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #002040;
-  margin-bottom: 60px;
-}
 .partners .partners__items {
   display: flex;
   justify-content: space-between;
@@ -1048,8 +895,6 @@
   height: 418px;
   background: #002040;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
 }
 .footer a {
   text-decoration: none;

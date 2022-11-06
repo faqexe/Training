@@ -4,6 +4,19 @@
    min-height: 100%;
    display: flex;
    flex-direction: column;
+
+   font-family: 'Montserrat', sans-serif;
+   font-style: normal;
+   font-feature-settings: 'pnum' on, 'lnum' on;
+   color: #002040;
+}
+
+.title {
+   font-weight: 600;
+   font-size: 36px;
+   line-height: 44px;
+   text-align: center;
+   margin-bottom: 60px;
 }
 
 .head {
@@ -22,13 +35,9 @@
    padding-top: 15px;
 
    .header__nav {
-      font-family: 'Montserrat', sans-serif;
-      font-style: normal;
       font-weight: 500;
       line-height: 20px;
       text-align: center;
-      font-feature-settings: 'pnum' on, 'lnum' on;
-      color: #002040;
       margin: 0 auto;
 
       ul {
@@ -61,25 +70,17 @@
          .tel {
             padding: 0;
             margin-bottom: 1px;
-            font-family: 'Montserrat', sans-serif;
-            font-style: normal;
             font-weight: 700;
             font-size: 18px;
             line-height: 22px;
-            font-feature-settings: 'pnum' on, 'lnum' on;
-            color: #002040;
          }
 
          .time {
             padding: 0;
             margin-bottom: 0;
-            font-family: 'Montserrat', sans-serif;
-            font-style: normal;
             font-weight: 400;
             font-size: 14px;
             line-height: 17px;
-            font-feature-settings: 'pnum' on, 'lnum' on;
-            color: #002040;
          }
       }
    }
@@ -114,13 +115,9 @@
       position: relative;
 
       & p {
-         font-family: 'Montserrat', sans-serif;
-         font-style: normal;
          font-weight: 500;
          font-size: 44px;
          line-height: 54px;
-         font-feature-settings: 'pnum' on, 'lnum' on;
-         color: #002040;
 
          & span {
             color: #007FFF;
@@ -153,8 +150,6 @@
          background: linear-gradient(180deg, #409FFF 0%, #007FFF 100%);
          box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 32, 64, 0.1);
          border-radius: 79px;
-         font-family: 'Montserrat', sans-serif;
-         font-style: normal;
          font-weight: 700;
          line-height: 20px;
          color: #fff;
@@ -196,17 +191,6 @@
    margin-bottom: 160px;
 
    .wrapper__life {
-      .life__title {
-         font-family: 'Montserrat', sans-serif;
-         font-style: normal;
-         font-weight: 600;
-         font-size: 36px;
-         line-height: 44px;
-         text-align: center;
-         font-feature-settings: 'pnum' on, 'lnum' on;
-         color: #002040;
-         margin-bottom: 60px;
-      }
 
       .life__grid {
          height: 944px;
@@ -228,26 +212,20 @@
             justify-content: center;
             align-items: center;
             color: #fff;
-            font-family: 'Montserrat', sans-serif;
-            font-style: normal;
             font-weight: 600;
             font-size: 24px;
             line-height: 29px;
             text-align: center;
-            font-feature-settings: 'pnum' on, 'lnum' on;
 
             & p {
                margin: 0;
                margin-top: 10px;
 
                &:last-child {
-                  font-family: 'Montserrat', sans-serif;
-                  font-style: normal;
                   font-weight: 500;
                   font-size: 16px;
                   line-height: 20px;
                   text-align: center;
-                  font-feature-settings: 'pnum' on, 'lnum' on;
                   color: #FFFFFF;
                   display: none;
                }
@@ -336,18 +314,6 @@
    align-items: center;
    height: 804px;
    margin-bottom: 160px;
-
-   .map__title {
-      font-family: 'Montserrat', sans-serif;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 36px;
-      line-height: 44px;
-      text-align: center;
-      font-feature-settings: 'pnum' on, 'lnum' on;
-      color: #000000;
-      margin-bottom: 60px;
-   }
 }
 
 .build {
@@ -358,18 +324,6 @@
    .build__wrapper {
       width: 1280px;
       height: 659px;
-
-      .build__title {
-         font-family: 'Montserrat', sans-serif;
-         font-style: normal;
-         font-weight: 600;
-         font-size: 36px;
-         line-height: 44px;
-         text-align: center;
-         font-feature-settings: 'pnum' on, 'lnum' on;
-         color: #000000;
-         margin-bottom: 40px;
-      }
 
       .build__numbers {
          display: flex;
@@ -388,11 +342,8 @@
             background: linear-gradient(180deg, #409FFF 0%, #007FFF 100%);
 
             & p {
-               font-family: 'Montserrat', sans-serif;
-               font-style: normal;
                color: #fff;
                text-align: center;
-               font-feature-settings: 'pnum' on, 'lnum' on;
                margin: 0;
 
                &:first-child {
@@ -419,11 +370,8 @@
             margin: 10px;
 
             & p {
-               font-family: 'Montserrat';
-               font-style: normal;
                color: #BFBFBF;
                text-align: center;
-               font-feature-settings: 'pnum' on, 'lnum' on;
                margin: 0;
 
                &:first-child {
@@ -547,12 +495,9 @@
                      }
 
                      .image__date {
-                        font-family: 'Montserrat', sans-serif;
-                        font-style: normal;
                         font-weight: 700;
                         font-size: 18px;
                         line-height: 22px;
-                        font-feature-settings: 'pnum' on, 'lnum' on;
                         color: #FFFFFF;
                      }
                   }
@@ -592,12 +537,9 @@
                      }
 
                      .image__date {
-                        font-family: 'Montserrat', sans-serif;
-                        font-style: normal;
                         font-weight: 700;
                         font-size: 18px;
                         line-height: 22px;
-                        font-feature-settings: 'pnum' on, 'lnum' on;
                         color: #FFFFFF;
                      }
                   }
@@ -648,27 +590,13 @@
 
 .graph {
    .graph__wrapper {
-      .graph__title {
-         font-family: 'Montserrat', sans-serif;
-         font-style: normal;
-         font-weight: 600;
-         font-size: 36px;
-         line-height: 44px;
-         text-align: center;
-         font-feature-settings: 'pnum' on, 'lnum' on;
-         color: #002040;
-         margin-bottom: 60px;
-      }
 
       .table {
          .white-text {
-            font-family: 'Montserrat', sans-serif;
-            font-style: normal;
             font-weight: 700;
             font-size: 14px;
             line-height: 17px;
             text-align: center;
-            font-feature-settings: 'pnum' on, 'lnum' on;
             color: #FFFFFF;
          }
 
@@ -693,18 +621,6 @@
    .tab__wrapper {
       text-align: center;
 
-      .tab__title {
-         font-family: 'Montserrat', sans-serif;
-         font-style: normal;
-         font-weight: 600;
-         font-size: 36px;
-         line-height: 44px;
-         text-align: center;
-         font-feature-settings: 'pnum' on, 'lnum' on;
-         color: #002040;
-         margin-bottom: 60px;
-      }
-
       .tab__image {
          & a {
             text-align: center;
@@ -719,18 +635,6 @@
    display: flex;
    flex-direction: column;
    align-items: center;
-
-   .plan__title {
-      font-family: 'Montserrat', sans-serif;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 36px;
-      line-height: 44px;
-      text-align: center;
-      font-feature-settings: 'pnum' on, 'lnum' on;
-      color: #002040;
-      margin-bottom: 60px;
-   }
 
    .plan__wrapper {
       display: flex;
@@ -774,13 +678,10 @@
                border-radius: 50px;
                background: linear-gradient(180deg, #409FFF 0%, #007FFF 100%);
                border: none;
-               font-family: 'Montserrat', sans-serif;
-               font-style: normal;
                font-weight: 700;
                font-size: 16px;
                line-height: 20px;
                text-align: center;
-               font-feature-settings: 'pnum' on, 'lnum' on;
                color: #FFFFFF;
                margin-right: 10px;
             }
@@ -791,13 +692,10 @@
                background: #F2F9FF;
                border-radius: 50px;
                border: none;
-               font-family: 'Montserrat', sans-serif;
-               font-style: normal;
                font-weight: 500;
                font-size: 16px;
                line-height: 20px;
                text-align: center;
-               font-feature-settings: 'pnum' on, 'lnum' on;
                color: #007FFF;
 
                &:hover {
@@ -808,12 +706,8 @@
          }
 
          .check__title {
-            font-family: 'Montserrat', sans-serif;
-            font-style: normal;
             font-weight: 600;
             text-align: center;
-            font-feature-settings: 'pnum' on, 'lnum' on;
-            color: #002040;
             margin-bottom: 20px;
 
             & p:first-child {
@@ -841,12 +735,9 @@
             & a {
                text-decoration: none;
                color: #fff;
-               font-family: 'Montserrat', sans-serif;
-               font-style: normal;
                font-weight: 700;
                font-size: 16px;
                line-height: 20px;
-               font-feature-settings: 'pnum' on, 'lnum' on;
             }
 
             &:hover {
@@ -865,14 +756,6 @@
    margin-bottom: 160px;
 
    .photo__title {
-      font-family: 'Montserrat', sans-serif;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 36px;
-      line-height: 44px;
-      text-align: center;
-      font-feature-settings: 'pnum' on, 'lnum' on;
-      color: #002040;
       margin-bottom: 70px;
    }
 
@@ -932,18 +815,6 @@
    justify-content: center;
    align-items: center;
 
-   .buy__title {
-      font-family: 'Montserrat', sans-serif;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 36px;
-      line-height: 44px;
-      text-align: center;
-      font-feature-settings: 'pnum' on, 'lnum' on;
-      color: #002040;
-      margin-bottom: 60px;
-   }
-
    .buy__wrapper {
       display: flex;
       justify-content: center;
@@ -981,12 +852,6 @@
             }
 
             .option__text {
-               & p {
-                  font-family: 'Montserrat', sans-serif;
-                  font-style: normal;
-                  font-feature-settings: 'pnum' on, 'lnum' on;
-                  color: #002040;
-               }
 
                & p:first-child {
                   font-weight: 600;
@@ -1076,18 +941,6 @@
    flex-direction: column;
    margin-bottom: 160px;
 
-   .clients__title {
-      font-family: 'Montserrat', sans-serif;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 36px;
-      line-height: 44px;
-      text-align: center;
-      font-feature-settings: 'pnum' on, 'lnum' on;
-      color: #002040;
-      margin-bottom: 60px;
-   }
-
    .clients__wrapper {
       display: flex;
       justify-content: center;
@@ -1166,18 +1019,6 @@
    align-items: center;
    margin-bottom: 200px;
 
-   .partners__title {
-      font-family: 'Montserrat', sans-serif;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 36px;
-      line-height: 44px;
-      text-align: center;
-      font-feature-settings: 'pnum' on, 'lnum' on;
-      color: #002040;
-      margin-bottom: 60px;
-   }
-
    .partners__items {
       display: flex;
       justify-content: space-between;
@@ -1198,8 +1039,6 @@
    height: 418px;
    background: #002040;
    color: #fff;
-   font-family: 'Montserrat', sans-serif;
-   font-style: normal;
 
    & a {
       text-decoration: none;
