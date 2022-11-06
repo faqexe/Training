@@ -383,15 +383,12 @@
   color: #fff;
 }
 .build .build__wrapper .build__gallery .gallery__items .gallery__images .image-one .image__info .image__count img {
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 .build .build__wrapper .build__gallery .gallery__items .gallery__images .image-one .image__info .image__date {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 22px;
-  font-feature-settings: "pnum" on, "lnum" on;
   color: #FFFFFF;
 }
 .build .build__wrapper .build__gallery .gallery__items .gallery__images .image-two {
@@ -423,7 +420,7 @@
   color: #fff;
 }
 .build .build__wrapper .build__gallery .gallery__items .gallery__images .image-two .image__info .image__count img {
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 .build .build__wrapper .build__gallery .gallery__items .gallery__images .image-two .image__info .image__date {
   font-weight: 700;
@@ -460,7 +457,7 @@
   color: #fff;
 }
 .build .build__wrapper .build__gallery .gallery__items .gallery__images .image-three .image__info .image__count img {
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 .build .build__wrapper .build__gallery .gallery__items .gallery__images .image-three .image__info .image__date {
   font-weight: 700;
