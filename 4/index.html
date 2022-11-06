@@ -48,7 +48,54 @@
             </div>
             <div class="main__buttons">
                <a class="buttons__flat--active" href="#">Выбрать квартиру<img src="img/flat.svg" alt="flat"></a>
-               <button class="buttons__consultant">Получить консультацию</button>
+               <!-- Modal windows -->
+               <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                  aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                     <div class="modal-content">
+                        <div class="modal-body">
+                           <div class="modal-text-one">
+                              <p>Бесплатная консультация</p>
+                              <p>Оставьте заявку и наши специалисты свяжутся с Вами в ближайшее время</p>
+                           </div>
+                           <form class="modal__form">
+                              <div class="form__input">
+                                 <label for="validationDefault01" class="form-label">Ваше имя *</label>
+                                 <input class="form-control" type="text" placeholder="Имя" aria-label="name"
+                                    id="validationDefault01" required>
+                              </div>
+                              <div class="form__input">
+                                 <label for="validationCustom02" class="form-label">Ваш номер телефона *</label>
+                                 <input class="form-control" type="tel" placeholder="+___ (__) ___ __ __"
+                                    aria-label="phone" id="validationCustom02" required>
+                              </div>
+                           </form>
+                        </div>
+                        <div class="modal__buttons">
+                           <button class="modal__button-one" data-bs-target="#exampleModalToggle2"
+                              data-bs-toggle="modal">Отправить</button>
+                           <button type="button" class="modal__button-two" data-bs-dismiss="modal">Закрыть</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+                  aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                     <div class="modal-content">
+                        <div class="modal-body text-center">
+                           <img class="modal-icon" src="img/modal-icon.svg" alt="ok">
+                           <div class="modal-text-two">
+                              <p>Заявка оформлена!</p>
+                              <p>Наши специалисты свяжутся с Вами в ближайшее время</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <a class="buttons__consultant" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Получить
+                  консультацию</a>
+                  <!--  -->
             </div>
          </div>
       </div>
@@ -274,9 +321,54 @@
                   <p>Закажите бесплатную консультацию или звоните за номером:</p>
                   <p>+7 982 45-22-67</p>
                </div>
-               <div class="contacts__button">
-                  <a href="#">Заказать консультацию</a>
+               <!-- Modal windows -->
+               <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                  aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                     <div class="modal-content">
+                        <div class="modal-body">
+                           <div class="modal-text-one">
+                              <p>Бесплатная консультация</p>
+                              <p>Оставьте заявку и наши специалисты свяжутся с Вами в ближайшее время</p>
+                           </div>
+                           <form class="modal__form">
+                              <div class="form__input">
+                                 <label for="validationDefault01" class="form-label">Ваше имя *</label>
+                                 <input class="form-control" type="text" placeholder="Имя" aria-label="name"
+                                    id="validationDefault01" required>
+                              </div>
+                              <div class="form__input">
+                                 <label for="validationCustom02" class="form-label">Ваш номер телефона *</label>
+                                 <input class="form-control" type="tel" placeholder="+___ (__) ___ __ __"
+                                    aria-label="phone" id="validationCustom02" required>
+                              </div>
+                           </form>
+                        </div>
+                        <div class="modal__buttons">
+                           <button class="modal__button-one" data-bs-target="#exampleModalToggle2"
+                              data-bs-toggle="modal">Отправить</button>
+                           <button type="button" class="modal__button-two" data-bs-dismiss="modal">Закрыть</button>
+                        </div>
+                     </div>
+                  </div>
                </div>
+               <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+                  aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                     <div class="modal-content">
+                        <div class="modal-body text-center">
+                           <img class="modal-icon" src="img/modal-icon.svg" alt="ok">
+                           <div class="modal-text-two">
+                              <p>Заявка оформлена!</p>
+                              <p>Наши специалисты свяжутся с Вами в ближайшее время</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <a class="contacts__button" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Заказать
+                  консультацию</a>
+                  <!--  -->
             </div>
          </div>
       </div>
@@ -360,9 +452,54 @@
                   <p>Остались вопросы?</p>
                   <p>Закажите бесплатную консультацию</p>
                </div>
-               <div class="footer__button">
-                  <a href="#">Заказать консультацию</a>
+               <!-- Modal windows -->
+               <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                  aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                     <div class="modal-content">
+                        <div class="modal-body">
+                           <div class="modal-text-one">
+                              <p>Бесплатная консультация</p>
+                              <p>Оставьте заявку и наши специалисты свяжутся с Вами в ближайшее время</p>
+                           </div>
+                           <form class="modal__form">
+                              <div class="form__input">
+                                 <label for="validationDefault01" class="form-label">Ваше имя *</label>
+                                 <input class="form-control" type="text" placeholder="Имя" aria-label="name"
+                                    id="validationDefault01" required>
+                              </div>
+                              <div class="form__input">
+                                 <label for="validationCustom02" class="form-label">Ваш номер телефона *</label>
+                                 <input class="form-control" type="tel" placeholder="+___ (__) ___ __ __"
+                                    aria-label="phone" id="validationCustom02" required>
+                              </div>
+                           </form>
+                        </div>
+                        <div class="modal__buttons">
+                           <button class="modal__button-one" data-bs-target="#exampleModalToggle2"
+                              data-bs-toggle="modal">Отправить</button>
+                           <button type="button" class="modal__button-two" data-bs-dismiss="modal">Закрыть</button>
+                        </div>
+                     </div>
+                  </div>
                </div>
+               <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+                  aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                     <div class="modal-content">
+                        <div class="modal-body text-center">
+                           <img class="modal-icon" src="img/modal-icon.svg" alt="ok">
+                           <div class="modal-text-two">
+                              <p>Заявка оформлена!</p>
+                              <p>Наши специалисты свяжутся с Вами в ближайшее время</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <a class="footer__button" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Заказать
+                  консультацию</a>
+                  <!--  -->
             </div>
             <div class="footer__line"></div>
             <div class="footer__contact">
@@ -396,7 +533,7 @@
                      <a href="#"><img src="img/vk.svg" alt="vk"></a>
                      <a href="#"><img src="img/twit.svg" alt="twit"></a>
                      <a href="#"><img src="img/ig.svg" alt="ig"></a>
-                     <button class="icon__button"><img src="img/arrow-up.svg" alt="up"></button>
+                     <a href="#" class="icon__button"><img src="img/arrow-up.svg" alt="up"></a>
                   </div>
                </div>
             </div>

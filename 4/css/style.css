@@ -150,11 +150,8 @@
   height: 80px;
   border: 1px solid #002040;
   border-radius: 79px;
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
   font-weight: 500;
   line-height: 20px;
-  font-feature-settings: "pnum" on, "lnum" on;
   color: #002040;
 }
 .main .main__buttons .buttons__consultant:hover {
@@ -757,11 +754,7 @@
   margin: 0 40px 30px 40px;
 }
 .buy .buy__wrapper .buy__contacts .contacts__text p {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
   text-align: center;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #002040;
 }
 .buy .buy__wrapper .buy__contacts .contacts__text p:first-child, .buy .buy__wrapper .buy__contacts .contacts__text p:last-child {
   font-weight: 600;
@@ -777,21 +770,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
   width: 327px;
   height: 80px;
   background: linear-gradient(180deg, #409FFF 0%, #007FFF 100%);
   box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 32, 64, 0.1);
   border-radius: 79px;
-}
-.buy .buy__wrapper .buy__contacts .contacts__button a {
-  text-decoration: none;
-  color: #fff;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  font-feature-settings: "pnum" on, "lnum" on;
 }
 .buy .buy__wrapper .buy__contacts .contacts__button:hover {
   background: #007FFF;
@@ -938,8 +926,6 @@
   background: #FFFFFF;
   border-radius: 79px;
   transition: all 0.3s;
-}
-.footer .footer__wrapper .footer__head .footer__button a {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -1020,4 +1006,105 @@
 }
 .footer .footer__wrapper .footer__bottom .footer__icons .icon__soc .icon__button:hover {
   background: #F2F9FF;
+}
+
+.modal {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #002040;
+}
+
+.modal-text-one {
+  margin: 60px 60px 40px 60px;
+  width: 390px;
+}
+.modal-text-one p:first-child {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 20px;
+}
+.modal-text-one p:last-child {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 0;
+}
+
+.modal__form {
+  margin: 0 auto;
+  width: 390px;
+}
+
+.form-label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.form__input {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  height: 60px;
+}
+
+.modal__buttons {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  width: 390px;
+}
+
+.modal__button-one {
+  background: linear-gradient(180deg, #409FFF 0%, #007FFF 100%);
+  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 32, 64, 0.1);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  padding: 30px 148px;
+  border: none;
+}
+
+.modal__button-two {
+  background: #F2F9FF;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #007FFF;
+  padding: 10px 159.5px;
+  border: none;
+}
+
+.modal-icon {
+  background: linear-gradient(180deg, #409FFF 0%, #007FFF 100%);
+  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 32, 64, 0.1);
+  border-radius: 79px;
+  padding: 37.5px 35px 38.75px 35px;
+  margin-top: 195px;
+  margin-bottom: 40px;
+}
+
+.modal-text-two {
+  margin: 0 60px 195px 60px;
+}
+.modal-text-two p:first-child {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 20px;
+}
+.modal-text-two p:last-child {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 0;
 }
