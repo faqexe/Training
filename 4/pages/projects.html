@@ -5,11 +5,224 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../css/projects.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
    <title>Проекты от ЖК "Возрождение"</title>
 </head>
 
 <body>
+   <div class="wrapper">
+      <div class="head">
+         <header class="header">
+            <div class="header__logo">
+               <img src="../img/Logo.png " alt="Logo">
+            </div>
+            <div class="header__nav">
+               <ul>
+                  <li><a href="#">О компании</a></li>
+                  <li><a href="#">Документы</a></li>
+                  <li><a href="#">Контакты</a></li>
+                  <li><a href="#">Новости</a></li>
+               </ul>
+            </div>
+            <div class="header__contacts">
+               <div class="contacts__text">
+                  <p class="tel">+7 982 45-22-67</p>
+                  <p class="time">Пн-Пт. с 8:00 до 19:00</p>
+               </div>
+               <div class="contacts__button">
+                  <a href="tel:+7 982 45-22-67"><img src="../img/Phone.svg" alt="Phone"></a>
+               </div>
+            </div>
+         </header>
+      </div>
+      <div class="projects">
+         <div class="projects__title title">
+            <p>Проект от ЖК "Возрождение"</p>
+         </div>
+         <div class="projects__items">
+            <div class="project__item">
+               <div class="item__image">
+                  <img src="../img/projects/1.png" alt="">
+               </div>
+               <div class="item__description">
+                  <div class="description__info">
+                     <div class="info__text">
+                        <p class="info__title">Литер 1</p>
+                        <p class="info__flats">
+                           <span><img src="../img/projects/build.svg" alt="">320</span>В продаже 350 квартир
+                        </p>
+                        <p>
+                           <span><img src="../img/projects/calend.svg" alt="">2-й</span>Сдача 2-й квартал 2022
+                        </p>
+                     </div>
+                     <div class="info__button">
+                        <a href="#">Выбрать квартиру <img src="../img/flat.svg" alt="flat"></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
 
+            <div class="project__item">
+               <div class="item__image">
+                  <img src="../img/projects/2.png" alt="">
+               </div>
+               <div class="item__description">
+                  <div class="description__info">
+                     <p class="info__title">Литер 2</p>
+                     <p class="info__flats">
+                        <span>
+                           <img src="../img/projects/build.svg" alt="">
+                           240
+                        </span>
+                        В продаже 240 квартир
+                     </p>
+                     <p>
+                        <span>
+                           <img src="../img/projects/calend.svg" alt="">
+                           3-й
+                        </span>
+                        Сдача 3-й квартал 2022
+                     </p>
+                     <div class="info__button">
+                        <a href="#">Выбрать квартиру <img src="../img/flat.svg" alt="flat"></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="project__item">
+               <div class="item__image">
+                  <img src="../img/projects/3.png" alt="">
+               </div>
+               <div class="item__description">
+                  <div class="description__info">
+                     <p class="info__title">Литер 3</p>
+                     <p>
+                        <span>
+                           <img src="../img/projects/build.svg" alt="">
+                           180
+                        </span>
+                        В продаже 180 квартир
+                     </p>
+                     <p class="info__flats">
+                        <span>
+                           <img src="../img/projects/calend.svg" alt="">
+                           4-й
+                        </span>
+                        Сдача 4-й квартал 2022
+                     </p>
+                     <div class="info__button">
+                        <a href="#">Выбрать квартиру <img src="../img/flat.svg" alt="flat"></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer class="footer">
+         <div class="footer__wrapper">
+            <div class="footer__head">
+               <div class="footer__logo">
+                  <img src="../img/logowhite.svg" alt="logo">
+               </div>
+               <div class="footer__text">
+                  <p>Остались вопросы?</p>
+                  <p>Закажите бесплатную консультацию</p>
+               </div>
+               <!-- Modal windows -->
+               <div class="modal fade" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                     <div class="modal-content">
+                        <div class="modal-body">
+                           <div class="modal-text-one">
+                              <p>Бесплатная консультация</p>
+                              <p>Оставьте заявку и наши специалисты свяжутся с Вами в ближайшее время</p>
+                           </div>
+                           <form class="modal__form">
+                              <div class="form__input">
+                                 <label for="validationDefault01" class="form-label">Ваше имя *</label>
+                                 <input class="form-control" type="text" placeholder="Имя" aria-label="name" required>
+                              </div>
+                              <div class="form__input">
+                                 <label for="validationCustom02" class="form-label">Ваш номер телефона *</label>
+                                 <input class="form-control" type="tel" placeholder="+___ (__) ___ __ __"
+                                    aria-label="phone" required>
+                              </div>
+                           </form>
+                        </div>
+                        <div class="modal__buttons">
+                           <button class="modal__button-one" data-bs-target="#exampleModalToggle2"
+                              data-bs-toggle="modal">Отправить</button>
+                           <button type="button" class="modal__button-two" data-bs-dismiss="modal">Закрыть</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="modal fade" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                     <div class="modal-content">
+                        <div class="modal-body text-center">
+                           <img class="modal-icon" src="../img/modal-icon.svg" alt="ok">
+                           <div class="modal-text-two">
+                              <p>Заявка оформлена!</p>
+                              <p>Наши специалисты свяжутся с Вами в ближайшее время</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <a class="footer__button" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Заказать
+                  консультацию</a>
+               <!--  -->
+            </div>
+            <div class="footer__line"></div>
+            <div class="footer__contact">
+               <div class="contact__phone">
+                  <p>Телефон:</p>
+                  <p>+7 982 45-22-67</p>
+               </div>
+               <div class="contact__mail">
+                  <p>Ел. почта:</p>
+                  <p>vozrojdenie@yandex.ru</p>
+               </div>
+               <div class="contact__adress">
+                  <p>Адрес офиса:</p>
+                  <p>Ярославская обл. Ярославль, Почтовая улица 12/2</p>
+               </div>
+               <div class="contact__adress">
+                  <p>Адрес обекта:</p>
+                  <p>Ярославская обл. Ярославль, рядом с ул. Бабича 10/22</p>
+               </div>
+            </div>
+            <div class="footer__line"></div>
+            <div class="footer__bottom">
+               <div class="footer__pol">
+                  <a href="#">Политика конфиденциальности</a>
+               </div>
+               <div class="footer__docs">
+                  <a href="#">Документы</a>
+               </div>
+               <div class="footer__icons">
+                  <div class="icon__soc">
+                     <a href="#"><img src="../img/vk.svg" alt="vk"></a>
+                     <a href="#"><img src="../img/twit.svg" alt="twit"></a>
+                     <a href="#"><img src="../img/ig.svg" alt="ig"></a>
+                     <a href="#" class="icon__button"><img src="../img/arrow-up.svg" alt="up"></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </div>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
