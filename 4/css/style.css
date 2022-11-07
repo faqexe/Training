@@ -48,6 +48,7 @@
   display: inline-flex;
   align-items: center;
   margin-right: 60px;
+  height: 30px;
 }
 .header .header__nav ul li:last-child {
   margin-right: 0;
@@ -55,6 +56,9 @@
 .header .header__nav ul li a {
   text-decoration: none;
   color: #002040;
+}
+.header .header__nav ul li:hover {
+  border-bottom: 2px solid #002040;
 }
 .header .header__contacts {
   display: flex;

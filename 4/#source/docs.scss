@@ -34,6 +34,11 @@
             display: inline-flex;
             align-items: center;
             margin-right: 60px;
+            height: 30px;
+
+            &:nth-child(3) {
+               border-bottom: 2px solid #002040;
+            }
 
             &:last-child {
                margin-right: 0;
@@ -42,6 +47,9 @@
             & a {
                text-decoration: none;
                color: #002040;
+            }
+            &:hover {
+               border-bottom: 2px solid #002040;
             }
          }
       }
