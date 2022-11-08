@@ -66,7 +66,8 @@
                   <p>Закажите бесплатную консультацию</p>
                </div>
                <!-- Modal windows -->
-               <div class="modal fade" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+               <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                  aria-labelledby="exampleModalToggleLabel" tabindex="-1">
                   <div class="modal-dialog modal-dialog-centered">
                      <div class="modal-content">
                         <div class="modal-body">
@@ -77,12 +78,13 @@
                            <form class="modal__form">
                               <div class="form__input">
                                  <label for="validationDefault01" class="form-label">Ваше имя *</label>
-                                 <input class="form-control" type="text" placeholder="Имя" aria-label="name" required>
+                                 <input class="form-control" type="text" placeholder="Имя" aria-label="name"
+                                    id="validationDefault01" required>
                               </div>
                               <div class="form__input">
                                  <label for="validationCustom02" class="form-label">Ваш номер телефона *</label>
                                  <input class="form-control" type="tel" placeholder="+___ (__) ___ __ __"
-                                    aria-label="phone" required>
+                                    aria-label="phone" id="validationCustom02" required>
                               </div>
                            </form>
                         </div>
@@ -94,7 +96,8 @@
                      </div>
                   </div>
                </div>
-               <div class="modal fade" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+               <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+                  aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
                   <div class="modal-dialog modal-dialog-centered">
                      <div class="modal-content">
                         <div class="modal-body text-center">
