@@ -224,7 +224,8 @@
   color: #FFFFFF;
   display: none;
 }
-.life .wrapper__life .life__grid .col .arrow {
+.life .wrapper__life .life__grid .col .arrowd,
+.life .wrapper__life .life__grid .col .arrowu {
   display: none;
 }
 .life .wrapper__life .life__grid .col-one {

@@ -1,19 +1,19 @@
 @media (max-width: 480px) {
    .wrapper {
-      min-width: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      max-width: 480px;
+         width: 100%;
+      // min-width: 100%;
+      // display: flex;
+      // flex-direction: column;
+      // align-items: center;
+      // justify-content: center;
    }
 
    .head {
       display: flex;
       flex-direction: column;
       background: none;
-      width: 100%;
       height: 880px;
-      // margin-bottom: 120px;
       background: linear-gradient(0deg, rgba(249, 252, 255, 0.95), rgba(249, 252, 255, 0.95)), url('../img/adaptive/Bg.png');
       
       .header {
@@ -96,12 +96,11 @@
    }
 
    .life {
-      height: 1002px;
+      margin-bottom: 120px;
       .wrapper__life {
-         max-width: 480px;
-         width: 100%;
+         height: 1002px;
          .life__title {
-            margin-bottom: 40px;
+            margin: 0 20px 40px 20px;
          }
          .life__grid {
             grid-template-columns: 1fr;
@@ -122,14 +121,31 @@
                   margin-right: 30px;
                   width: 231px;
                   text-align-last: left;
+                  margin-top: 0;
                }
-               .arrow {
+               .arrowd {
                   display: flex;
                   width: 14.5px;
                   height: 7.25px;
                }
+               &:hover {
+                  .arrowd {
+                     display: none;
+                  }
+                  .arrowu {
+                     display: flex;
+                     width: 14.5px;
+                     height: 7.25px;
+                  }
+               }
             }
          }
       }
+   }
+
+   .map {
+      max-width: 480px;
+      width: 100%;
+      margin-top: 120px;
    }
 }
