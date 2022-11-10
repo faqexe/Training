@@ -1,5 +1,4 @@
 .wrapper {
-  min-width: 1920px;
   background: #F9FCFF;
   min-height: 100%;
   display: flex;
@@ -34,53 +33,67 @@
           backdrop-filter: blur(2.5px);
   padding-top: 15px;
 }
-.header .header__nav {
+
+.header__hamburger {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #409FFF 0%, #007FFF 100%);
+  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 32, 64, 0.1);
+  border-radius: 79px;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.header__nav {
   font-weight: 500;
   line-height: 20px;
   text-align: center;
   margin: 0 auto;
 }
-.header .header__nav ul {
+.header__nav ul {
   list-style: none;
   margin: 0;
 }
-.header .header__nav ul li {
+.header__nav ul li {
   display: inline-flex;
   align-items: center;
   margin-right: 60px;
   height: 30px;
 }
-.header .header__nav ul li:last-child {
+.header__nav ul li:last-child {
   margin-right: 0;
 }
-.header .header__nav ul li a {
+.header__nav ul li a {
   text-decoration: none;
   color: #002040;
 }
-.header .header__nav ul li:hover {
+.header__nav ul li:hover {
   border-bottom: 2px solid #002040;
 }
-.header .header__contacts {
+
+.header__contacts {
   display: flex;
 }
-.header .header__contacts .contacts__text {
+.header__contacts .contacts__text {
   margin-right: 10px;
 }
-.header .header__contacts .contacts__text .tel {
+.header__contacts .contacts__text .tel {
   padding: 0;
   margin-bottom: 1px;
   font-weight: 700;
   font-size: 18px;
   line-height: 22px;
 }
-.header .header__contacts .contacts__text .time {
+.header__contacts .contacts__text .time {
   padding: 0;
   margin-bottom: 0;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
 }
-.header .contacts__button {
+
+.contacts__button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,15 +103,21 @@
   box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 32, 64, 0.1);
   border-radius: 79px;
 }
-.header .contacts__button img {
+.contacts__button img {
   padding-bottom: 4px;
 }
-.header .contacts__button:hover {
+.contacts__button:hover {
   background: #007FFF;
   box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 32, 64, 0.1);
 }
 
+.mobile__image {
+  display: none;
+}
+
 .main {
+  display: flex;
+  flex-direction: column;
   height: 800px;
 }
 .main .main__title {
@@ -119,6 +138,7 @@
   position: absolute;
   top: 35px;
   left: 148px;
+  max-width: 100%;
 }
 .main .main__buttons {
   display: flex;
@@ -132,8 +152,7 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  width: 326px;
-  height: 80px;
+  padding: 30px 60px;
   background: linear-gradient(180deg, #409FFF 0%, #007FFF 100%);
   box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 32, 64, 0.1);
   border-radius: 79px;
@@ -150,8 +169,7 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  width: 326px;
-  height: 80px;
+  padding: 30px 60px;
   border: 1px solid #002040;
   border-radius: 79px;
   font-weight: 500;

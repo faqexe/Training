@@ -1,0 +1,100 @@
+@media (max-width: 480px) {
+  .wrapper {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .head {
+    display: flex;
+    flex-direction: column;
+    background: none;
+    width: 100%;
+    height: 880px;
+    background: linear-gradient(0deg, rgba(249, 252, 255, 0.95), rgba(249, 252, 255, 0.95)), url("../img/adaptive/Bg.png");
+  }
+  .head .header {
+    padding: 15px 20px;
+  }
+  .head .header__nav {
+    display: none;
+  }
+  .head .header__contacts .contacts__text {
+    display: none;
+  }
+  .head .header__contacts .contacts__button {
+    display: none;
+  }
+  .head .header__logo {
+    margin-right: 38.58px;
+    max-width: 100%;
+  }
+  .head .mobile__image {
+    display: flex;
+  }
+  .head .mobile__image img {
+    max-width: 100%;
+  }
+  .head .main {
+    display: flex;
+    text-align: center;
+    margin: 38px 17px 82px 23px;
+    height: 410px;
+  }
+  .head .main .main__title {
+    display: flex;
+    max-width: 440px;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .head .main .main__title p {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .head .main .main__title .title__line {
+    top: 29px;
+    left: 220px;
+  }
+  .head .main .main__buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 440px;
+    width: 100%;
+  }
+  .head .main .main__buttons .buttons__flat--active {
+    margin-bottom: 10px;
+  }
+  .head .header__hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+  }
+  .head .header__hamburger .hamburger__name {
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .head .header__hamburger img {
+    padding-bottom: 3px;
+  }
+  .life {
+    height: 1002px;
+  }
+  .life .wrapper__life {
+    max-width: 480px;
+    width: 100%;
+  }
+  .life .wrapper__life .life__title {
+    margin-bottom: 40px;
+  }
+  .life .wrapper__life .life__grid {
+    grid-template-columns: 1fr;
+  }
+}

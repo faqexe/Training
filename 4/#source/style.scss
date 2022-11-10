@@ -1,5 +1,5 @@
 .wrapper {
-   min-width: 1920px;
+   // min-width: 1920px;
    background: #F9FCFF;
    min-height: 100%;
    display: flex;
@@ -33,6 +33,22 @@
    background: rgba(255, 255, 255, 0.5);
    backdrop-filter: blur(2.5px);
    padding-top: 15px;
+}
+
+// Hamburger
+
+.header__hamburger {
+   display: none;
+   justify-content: center;
+   align-items: center;
+   background: linear-gradient(180deg, #409FFF 0%, #007FFF 100%);
+   box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 32, 64, 0.1);
+   border-radius: 79px;
+   padding: 10px 20px;
+   color: #fff;
+}
+
+//  Hamburger
 
    .header__nav {
       font-weight: 500;
@@ -108,9 +124,14 @@
          box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 32, 64, 0.1);
       }
    }
+
+.mobile__image {
+   display: none;
 }
 
 .main {
+   display: flex;
+   flex-direction: column;
    height: 800px;
 
    .main__title {
@@ -133,6 +154,7 @@
          position: absolute;
          top: 35px;
          left: 148px;
+         max-width: 100%;
       }
    }
 
@@ -149,8 +171,7 @@
          text-align: center;
          align-items: center;
          justify-content: center;
-         width: 326px;
-         height: 80px;
+         padding: 30px 60px;
          background: linear-gradient(180deg, #409FFF 0%, #007FFF 100%);
          box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 32, 64, 0.1);
          border-radius: 79px;
@@ -169,8 +190,7 @@
          text-align: center;
          align-items: center;
          justify-content: center;
-         width: 326px;
-         height: 80px;
+         padding: 30px 60px;
          border: 1px solid #002040;
          border-radius: 79px;
          font-weight: 500;
