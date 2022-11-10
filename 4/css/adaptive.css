@@ -97,4 +97,29 @@
   .life .wrapper__life .life__grid {
     grid-template-columns: 1fr;
   }
+  .life .wrapper__life .life__grid .col {
+    flex-direction: row;
+    justify-content: start;
+    height: 120px;
+    padding: 40px;
+  }
+  .life .wrapper__life .life__grid .col img {
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+  }
+  .life .wrapper__life .life__grid .col p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-right: 30px;
+    width: 231px;
+    -moz-text-align-last: left;
+         text-align-last: left;
+  }
+  .life .wrapper__life .life__grid .col .arrow {
+    display: flex;
+    width: 14.5px;
+    height: 7.25px;
+  }
 }
