@@ -34,7 +34,7 @@
   padding-top: 15px;
 }
 
-.header__hamburger {
+.hamburger__button {
   display: none;
   justify-content: center;
   align-items: center;
@@ -43,6 +43,7 @@
   border-radius: 79px;
   padding: 10px 20px;
   color: #fff;
+  border: none;
 }
 
 .header__nav {
@@ -99,6 +100,7 @@
   align-items: center;
   width: 40px;
   height: 40px;
+  padding: 11.67px 11.67px 11.73px 11.76px;
   background: linear-gradient(180deg, #409FFF 0%, #007FFF 100%);
   box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 32, 64, 0.1);
   border-radius: 79px;
@@ -593,12 +595,12 @@
   border-radius: 70px;
   margin-top: 40px;
   width: 500px;
-  height: 70px;
+  padding: 10px;
   margin-bottom: 40px;
 }
 .plan .plan__wrapper .plan__check .check__buttons .button-one {
+  padding: 15px 20px;
   width: 235px;
-  height: 50px;
   border-radius: 50px;
   background: linear-gradient(180deg, #409FFF 0%, #007FFF 100%);
   border: none;
@@ -610,8 +612,8 @@
   margin-right: 10px;
 }
 .plan .plan__wrapper .plan__check .check__buttons .button-two {
+  padding: 15px 20px;
   width: 235px;
-  height: 50px;
   background: #F2F9FF;
   border-radius: 50px;
   border: none;
@@ -644,6 +646,7 @@
   align-items: center;
   width: 301px;
   height: 80px;
+  padding: 30px;
   background: linear-gradient(180deg, #409FFF 0%, #007FFF 100%);
   box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 32, 64, 0.1);
   border-radius: 79px;
@@ -669,6 +672,9 @@
 }
 .photos .photo__title {
   margin-bottom: 70px;
+}
+.photos .photo__title p {
+  margin: 0;
 }
 .photos .photo__images {
   width: 1280px;
