@@ -1,4 +1,6 @@
 .wrapper {
+  min-width: 100%;
+  width: 1920px;
   background: #F9FCFF;
   min-height: 100%;
   display: flex;
@@ -51,6 +53,7 @@
   line-height: 20px;
   text-align: center;
   margin: 0 auto;
+  height: 32px;
 }
 .header__nav ul {
   list-style: none;
@@ -145,6 +148,7 @@
 .main .main__buttons {
   display: flex;
   margin-left: 320px;
+  height: 80px;
 }
 .main .main__buttons a {
   text-decoration: none;
