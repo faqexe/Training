@@ -6,6 +6,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="../css/nevstyle.css">
+   <link rel="stylesheet" href="../css/adaptive.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -19,13 +20,13 @@
       <div class="head">
          <header class="header">
             <div class="header__logo">
-               <a href="../index.html"><img src="../img/Logo.png " alt="Logo"></a>
+               <a href="../index.html"><img src="../img/nevskiy/Logo.svg " alt="Logo"></a>
             </div>
             <div class="header__nav">
                <ul>
-                  <li><a href="./pages/about.html" target="_blank">О компании</a></li>
-                  <li><a href="./pages/news.html">Новости</a></li>
-                  <li><a href="./pages/docs.html">Документы</a></li>
+                  <li><a href="../pages/about.html">О компании</a></li>
+                  <li><a href="../pages/news.html">Новости</a></li>
+                  <li><a href="../pages/docs.html">Документы</a></li>
                   <li><a href="#">Контакты</a></li>
                </ul>
             </div>
@@ -152,9 +153,10 @@
          <div class="map__title title">
             <p>Инфраструктура и расположение</p>
          </div>
-         <div class="map__image">
+         <picture>
+            <source srcset="../img/adaptive/Map.png" media="(max-width: 480px)">
             <img src="../img/Map.png" alt="map">
-         </div>
+         </picture>
       </div>
       <div class="plan">
          <div class="plan__title title">
