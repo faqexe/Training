@@ -1,576 +1,772 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/adaptive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <title>ЖК "Возрождение"</title>
+  </head>
 
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="css/style.css">
-   <link rel="stylesheet" href="css/adaptive.css">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-   <title>ЖК "Возрождение"</title>
-</head>
-
-<body>
-   <div class="wrapper">
+  <body>
+    <div class="wrapper">
       <div class="head">
-         <header class="header">
-            <div class="header__logo">
-               <a href="index.html"><img src="img/Logo.png " alt="Logo"></a>
-            </div>
+        <header class="header">
+          <div class="header__logo">
+            <a href="index.html"><img src="img/Logo.png " alt="Logo" /></a>
+          </div>
 
-            <div>
-               <button class="hamburger__button" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Меню<img
-                     src="img/adaptive/hamb.svg" alt="hamb"></button>
+          <div>
+            <button
+              class="hamburger__button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseExample"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              Меню<img src="img/adaptive/hamb.svg" alt="hamb" />
+            </button>
+          </div>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              Некоторый заполнитель для компонента сворачивания. Эта панель по
+              умолчанию скрыта, но открывается, когда пользователь активирует
+              соответствующий триггер.
             </div>
-            <div class="collapse" id="collapseExample">
-               <div class="card card-body">
-                  Некоторый заполнитель для компонента сворачивания. Эта панель по умолчанию скрыта, но открывается,
-                  когда пользователь активирует соответствующий триггер.
-               </div>
-            </div>
+          </div>
 
-            <div class="header__nav">
-               <ul>
-                  <li><a href="./pages/about.html">О компании</a></li>
-                  <li><a href="./pages/news.html">Новости</a></li>
-                  <li><a href="./pages/docs.html">Документы</a></li>
-                  <li><a href="#">Контакты</a></li>
-               </ul>
+          <div class="header__nav">
+            <ul>
+              <li><a href="./pages/about.html">О компании</a></li>
+              <li><a href="./pages/news.html">Новости</a></li>
+              <li><a href="./pages/docs.html">Документы</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="header__contacts">
+            <div class="contacts__text">
+              <p class="tel">+7 982 45-22-67</p>
+              <p class="time">Пн-Пт. с 8:00 до 19:00</p>
             </div>
-            <div class="header__contacts">
-               <div class="contacts__text">
-                  <p class="tel">+7 982 45-22-67</p>
-                  <p class="time">Пн-Пт. с 8:00 до 19:00</p>
-               </div>
-               <div class="contacts__button">
-                  <a href="tel:+7 982 45-22-67"><img src="img/Phone.svg" alt="Phone"></a>
-               </div>
+            <div class="contacts__button">
+              <a href="tel:+7 982 45-22-67"
+                ><img src="img/Phone.svg" alt="Phone"
+              /></a>
             </div>
-         </header>
-         <div class="mobile__image">
-            <img src="img/adaptive/Bg.png" alt="mobile">
-         </div>
-         <div class="main">
-            <div class="main__title">
-               <p>Более <span>1000</span> комфортных квартир от 2,3 млн рублей в Дзержинском р-не Ярославля</p>
-               <div class="title__line">
-                  <img src="img/Line.svg" alt="line">
-               </div>
+          </div>
+        </header>
+        <div class="mobile__image">
+          <img src="img/adaptive/Bg.png" alt="mobile" />
+        </div>
+        <div class="main">
+          <div class="main__title">
+            <p>
+              Более <span>1000</span> комфортных квартир от 2,3 млн рублей в
+              Дзержинском р-не Ярославля
+            </p>
+            <div class="title__line">
+              <img src="img/Line.svg" alt="line" />
             </div>
-            <div class="main__buttons">
-               <a class="buttons__flat--active" href="pages/projects.html">Выбрать квартиру<img src="img/flat.svg"
-                     alt="flat"></a>
-               <!-- Modal windows -->
-               <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
-                  aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-                  <div class="modal-dialog modal-dialog-centered">
-                     <div class="modal-content">
-                        <div class="modal-body">
-                           <div class="modal-text-one">
-                              <p>Бесплатная консультация</p>
-                              <p>Оставьте заявку и наши специалисты свяжутся с Вами в ближайшее время</p>
-                           </div>
-                           <form class="modal__form">
-                              <div class="form__input">
-                                 <label for="validationDefault01" class="form-label">Ваше имя *</label>
-                                 <input class="form-control" type="text" placeholder="Имя" aria-label="name"
-                                    id="validationDefault01" required>
-                              </div>
-                              <div class="form__input">
-                                 <label for="validationCustom02" class="form-label">Ваш номер телефона *</label>
-                                 <input class="form-control" type="tel" placeholder="+___ (__) ___ __ __"
-                                    aria-label="phone" id="validationCustom02" required>
-                              </div>
-                           </form>
-                        </div>
-                        <div class="modal__buttons">
-                           <button class="modal__button-one" data-bs-target="#exampleModalToggle2"
-                              data-bs-toggle="modal">Отправить</button>
-                           <button type="button" class="modal__button-two" data-bs-dismiss="modal">Закрыть</button>
-                        </div>
-                     </div>
+          </div>
+          <div class="main__buttons">
+            <a class="buttons__flat--active" href="pages/projects.html"
+              >Выбрать квартиру<img src="img/flat.svg" alt="flat"
+            /></a>
+            <!-- Modal windows -->
+            <div
+              class="modal fade"
+              id="exampleModalToggle"
+              aria-hidden="true"
+              aria-labelledby="exampleModalToggleLabel"
+              tabindex="-1"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <div class="modal-text-one">
+                      <p>Бесплатная консультация</p>
+                      <p>
+                        Оставьте заявку и наши специалисты свяжутся с Вами в
+                        ближайшее время
+                      </p>
+                    </div>
+                    <form class="modal__form">
+                      <div class="form__input">
+                        <label for="validationDefault01" class="form-label"
+                          >Ваше имя *</label
+                        >
+                        <input
+                          class="form-control"
+                          type="text"
+                          placeholder="Имя"
+                          aria-label="name"
+                          id="validationDefault01"
+                          required
+                        />
+                      </div>
+                      <div class="form__input">
+                        <label for="validationCustom02" class="form-label"
+                          >Ваш номер телефона *</label
+                        >
+                        <input
+                          class="form-control"
+                          type="tel"
+                          placeholder="+___ (__) ___ __ __"
+                          aria-label="phone"
+                          id="validationCustom02"
+                          required
+                        />
+                      </div>
+                    </form>
                   </div>
-               </div>
-               <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
-                  aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-                  <div class="modal-dialog modal-dialog-centered">
-                     <div class="modal-content">
-                        <div class="modal-body text-center">
-                           <img class="modal-icon" src="img/modal-icon.svg" alt="ok">
-                           <div class="modal-text-two">
-                              <p>Заявка оформлена!</p>
-                              <p>Наши специалисты свяжутся с Вами в ближайшее время</p>
-                           </div>
-                        </div>
-                     </div>
+                  <div class="modal__buttons">
+                    <button
+                      class="modal__button-one"
+                      data-bs-target="#exampleModalToggle2"
+                      data-bs-toggle="modal"
+                    >
+                      Отправить
+                    </button>
+                    <button
+                      type="button"
+                      class="modal__button-two"
+                      data-bs-dismiss="modal"
+                    >
+                      Закрыть
+                    </button>
                   </div>
-               </div>
-               <a class="buttons__consultant" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Получить
-                  консультацию</a>
-               <!--  -->
+                </div>
+              </div>
             </div>
-         </div>
+            <div
+              class="modal fade"
+              id="exampleModalToggle2"
+              aria-hidden="true"
+              aria-labelledby="exampleModalToggleLabel2"
+              tabindex="-1"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body text-center">
+                    <img class="modal-icon" src="img/modal-icon.svg" alt="ok" />
+                    <div class="modal-text-two">
+                      <p>Заявка оформлена!</p>
+                      <p>Наши специалисты свяжутся с Вами в ближайшее время</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a
+              class="buttons__consultant"
+              data-bs-toggle="modal"
+              href="#exampleModalToggle"
+              role="button"
+              >Получить консультацию</a
+            >
+            <!--  -->
+          </div>
+        </div>
       </div>
       <div class="life">
-         <div class="wrapper__life">
-            <div class="life__title title">
-               <p>Преимущества жизни в ЖК “Возрождение”</p>
+        <div class="wrapper__life">
+          <div class="life__title title">
+            <p>Преимущества жизни в ЖК “Возрождение”</p>
+          </div>
+          <div class="life__grid">
+            <div class="col col-one">
+              <img src="img/ico1.svg" alt="" />
+              <p>Экология</p>
+              <img class="arrowd" src="img/adaptive/arrowd.svg" alt="arrow" />
+              <img class="arrowu" src="img/adaptive/arrowu.svg" alt="arrow" />
+              <p class="active">
+                Рядом лес, Волга и зоны для отдыха. Шум и пыль не будут вас
+                беспокоить, так как дом находится на второй линии, а развитая
+                инфраструктура этой части города будет полностью в Вашем
+                распоряженииЭкология
+              </p>
             </div>
-            <div class="life__grid">
-               <div class="col col-one">
-                  <img src="img/ico1.svg" alt="">
-                  <p>Экология</p>
-                  <img class="arrowd" src="img/adaptive/arrowd.svg" alt="arrow">
-                  <img class="arrowu" src="img/adaptive/arrowu.svg" alt="arrow">
-                  <p class="active">Рядом лес, Волга и зоны для отдыха. Шум и пыль не будут вас беспокоить, так как дом
-                     находится на второй линии, а развитая инфраструктура этой части города будет полностью в Вашем
-                     распоряженииЭкология</p>
-               </div>
-               <div class="col col-two">
-                  <img src="img/ico2.svg" alt="">
-                  <p>Доступная стоимость</p>
-                  <img class="arrowd" src="img/adaptive/arrowd.svg" alt="arrow">
-                  <img class="arrowu" src="img/adaptive/arrowu.svg" alt="arrow">
-                  <p class="active">Рядом лес, Волга и зоны для отдыха. Шум и пыль не будут вас беспокоить, так как дом
-                     находится на второй линии, а развитая инфраструктура этой части города будет полностью в Вашем
-                     распоряженииЭкология</p>
-               </div>
-               <div class="col col-three">
-                  <img src="img/ico3.svg" alt="">
-                  <p>Надежность</p>
-                  <img class="arrowd" src="img/adaptive/arrowd.svg" alt="arrow">
-                  <img class="arrowu" src="img/adaptive/arrowu.svg" alt="arrow">
-                  <p class="active">Рядом лес, Волга и зоны для отдыха. Шум и пыль не будут вас беспокоить, так как дом
-                     находится на второй линии, а развитая инфраструктура этой части города будет полностью в Вашем
-                     распоряженииЭкология</p>
-               </div>
-               <div class="col col-four">
-                  <img src="img/ico4.svg" alt="">
-                  <p>Транспортная доступность</p>
-                  <img class="arrowd" src="img/adaptive/arrowd.svg" alt="arrow">
-                  <img class="arrowu" src="img/adaptive/arrowu.svg" alt="arrow">
-                  <p class="active">Рядом лес, Волга и зоны для отдыха. Шум и пыль не будут вас беспокоить, так как дом
-                     находится на второй линии, а развитая инфраструктура этой части города будет полностью в Вашем
-                     распоряженииЭкология</p>
-               </div>
-               <div class="col col-five">
-                  <img src="img/ico5.svg" alt="">
-                  <p>Разнообразие планировки</p>
-                  <img class="arrowd" src="img/adaptive/arrowd.svg" alt="arrow">
-                  <img class="arrowu" src="img/adaptive/arrowu.svg" alt="arrow">
-                  <p class="active">Рядом лес, Волга и зоны для отдыха. Шум и пыль не будут вас беспокоить, так как дом
-                     находится на второй линии, а развитая инфраструктура этой части города будет полностью в Вашем
-                     распоряженииЭкология</p>
-               </div>
-               <div class="col col-six">
-                  <img src="img/ico6.svg" alt="">
-                  <p>Инфраструктура</p>
-                  <img class="arrowd" src="img/adaptive/arrowd.svg" alt="arrow">
-                  <img class="arrowu" src="img/adaptive/arrowu.svg" alt="arrow">
-                  <p class="active">Рядом лес, Волга и зоны для отдыха. Шум и пыль не будут вас беспокоить, так как дом
-                     находится на второй линии, а развитая инфраструктура этой части города будет полностью в Вашем
-                     распоряженииЭкология</p>
-               </div>
+            <div class="col col-two">
+              <img src="img/ico2.svg" alt="" />
+              <p>Доступная стоимость</p>
+              <img class="arrowd" src="img/adaptive/arrowd.svg" alt="arrow" />
+              <img class="arrowu" src="img/adaptive/arrowu.svg" alt="arrow" />
+              <p class="active">
+                Рядом лес, Волга и зоны для отдыха. Шум и пыль не будут вас
+                беспокоить, так как дом находится на второй линии, а развитая
+                инфраструктура этой части города будет полностью в Вашем
+                распоряженииЭкология
+              </p>
             </div>
-         </div>
+            <div class="col col-three">
+              <img src="img/ico3.svg" alt="" />
+              <p>Надежность</p>
+              <img class="arrowd" src="img/adaptive/arrowd.svg" alt="arrow" />
+              <img class="arrowu" src="img/adaptive/arrowu.svg" alt="arrow" />
+              <p class="active">
+                Рядом лес, Волга и зоны для отдыха. Шум и пыль не будут вас
+                беспокоить, так как дом находится на второй линии, а развитая
+                инфраструктура этой части города будет полностью в Вашем
+                распоряженииЭкология
+              </p>
+            </div>
+            <div class="col col-four">
+              <img src="img/ico4.svg" alt="" />
+              <p>Транспортная доступность</p>
+              <img class="arrowd" src="img/adaptive/arrowd.svg" alt="arrow" />
+              <img class="arrowu" src="img/adaptive/arrowu.svg" alt="arrow" />
+              <p class="active">
+                Рядом лес, Волга и зоны для отдыха. Шум и пыль не будут вас
+                беспокоить, так как дом находится на второй линии, а развитая
+                инфраструктура этой части города будет полностью в Вашем
+                распоряженииЭкология
+              </p>
+            </div>
+            <div class="col col-five">
+              <img src="img/ico5.svg" alt="" />
+              <p>Разнообразие планировки</p>
+              <img class="arrowd" src="img/adaptive/arrowd.svg" alt="arrow" />
+              <img class="arrowu" src="img/adaptive/arrowu.svg" alt="arrow" />
+              <p class="active">
+                Рядом лес, Волга и зоны для отдыха. Шум и пыль не будут вас
+                беспокоить, так как дом находится на второй линии, а развитая
+                инфраструктура этой части города будет полностью в Вашем
+                распоряженииЭкология
+              </p>
+            </div>
+            <div class="col col-six">
+              <img src="img/ico6.svg" alt="" />
+              <p>Инфраструктура</p>
+              <img class="arrowd" src="img/adaptive/arrowd.svg" alt="arrow" />
+              <img class="arrowu" src="img/adaptive/arrowu.svg" alt="arrow" />
+              <p class="active">
+                Рядом лес, Волга и зоны для отдыха. Шум и пыль не будут вас
+                беспокоить, так как дом находится на второй линии, а развитая
+                инфраструктура этой части города будет полностью в Вашем
+                распоряженииЭкология
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="map">
-         <div class="map__title title">
-            <p>Инфраструктура и расположение</p>
-         </div>
-         <picture>
-            <source srcset="img/adaptive/Map.png" media="(max-width: 480px)">
-            <img src="img/Map.png" alt="map">
-         </picture>
+        <div class="map__title title">
+          <p>Инфраструктура и расположение</p>
+        </div>
+        <picture>
+          <source srcset="img/adaptive/Map.png" media="(max-width: 480px)" />
+          <img src="img/Map.png" alt="map" />
+        </picture>
       </div>
       <div class="build">
-         <div class="build__wrapper">
-            <div class="build__title title">
-               <p>Ход строительства</p>
+        <div class="build__wrapper">
+          <div class="build__title title">
+            <p>Ход строительства</p>
+          </div>
+          <div class="build__numbers">
+            <div class="numbers__item--active">
+              <p>Литер 1</p>
+              <p>Сентябрь 2021 - Декабрь 2022</p>
             </div>
-            <div class="build__numbers">
-               <div class="numbers__item--active">
-                  <p>Литер 1</p>
-                  <p>Сентябрь 2021 - Декабрь 2022</p>
-               </div>
-               <div class="numbers__item">
-                  <p>Литер 2</p>
-                  <p>Март 2022- Декабрь 2023</p>
-               </div>
-               <div class="numbers__item">
-                  <p>Литер 3</p>
-                  <p>Март 2023 - Декабрь 2024</p>
-               </div>
-               <div class="numbers__item">
-                  <p>Литер 4</p>
-                  <p>Март 2025 - Декабрь 2026</p>
-               </div>
+            <div class="numbers__item">
+              <p>Литер 2</p>
+              <p>Март 2022- Декабрь 2023</p>
             </div>
-            <div class="build__gallery">
-               <div class="gallery__items">
-                  <div class="gallery__images">
-                     <div class="image-one">
-                        <div class="image__info">
-                           <div class="image__count">
-                              <a href="#">15 <img src="img/camera.svg" alt="camera"></a>
-                           </div>
-                           <div class="image__date">
-                              <p>2021 / Август</p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="image-two">
-                        <div class="image__info">
-                           <div class="image__count">
-                              <a href="#">5 <img src="img/camera.svg" alt="camera"></a>
-                           </div>
-                           <div class="image__date">
-                              <p>2021 / Июль</p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="image-three">
-                        <div class="image__info">
-                           <div class="image__count">
-                              <a href="#">12 <img src="img/camera.svg" alt="camera"></a>
-                           </div>
-                           <div class="image__date">
-                              <p>2021 / Июнь</p>
-                           </div>
-                        </div>
-                     </div>
+            <div class="numbers__item">
+              <p>Литер 3</p>
+              <p>Март 2023 - Декабрь 2024</p>
+            </div>
+            <div class="numbers__item">
+              <p>Литер 4</p>
+              <p>Март 2025 - Декабрь 2026</p>
+            </div>
+          </div>
+          <div class="build__gallery">
+            <div class="gallery__items">
+              <div class="gallery__images">
+                <div class="image-one">
+                  <div class="image__info">
+                    <div class="image__count">
+                      <a href="#"
+                        >15 <img src="img/camera.svg" alt="camera"
+                      /></a>
+                    </div>
+                    <div class="image__date">
+                      <p>2021 / Август</p>
+                    </div>
                   </div>
-                  <div class="gallery__scroll"></div>
-                  <div class="gallery__arrows">
-                     <div class="arrow-left">
-                        <a href="#"><img src="img/left.svg" alt="left"></a>
-                     </div>
-                     <div class="arrow-right">
-                        <a href="#"><img src="img/right.svg" alt="right"></a>
-                     </div>
+                </div>
+                <div class="image-two">
+                  <div class="image__info">
+                    <div class="image__count">
+                      <a href="#"
+                        >5 <img src="img/camera.svg" alt="camera"
+                      /></a>
+                    </div>
+                    <div class="image__date">
+                      <p>2021 / Июль</p>
+                    </div>
                   </div>
-               </div>
+                </div>
+                <div class="image-three">
+                  <div class="image__info">
+                    <div class="image__count">
+                      <a href="#"
+                        >12 <img src="img/camera.svg" alt="camera"
+                      /></a>
+                    </div>
+                    <div class="image__date">
+                      <p>2021 / Июнь</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery__scroll"></div>
+              <div class="gallery__arrows">
+                <div class="arrow-left">
+                  <a href="#"><img src="img/left.svg" alt="left" /></a>
+                </div>
+                <div class="arrow-right">
+                  <a href="#"><img src="img/right.svg" alt="right" /></a>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </div>
       <div class="tab">
-         <div class="tab__wrapper">
-            <div class="tab__title title">
-               <p>График выполнения работ</p>
-            </div>
-            <div class="tab__image">
-               <a href="pages/table.html" target="_blank"><img src="img/table.png" alt="table"></a>
-            </div>
-         </div>
+        <div class="tab__wrapper">
+          <div class="tab__title title">
+            <p>График выполнения работ</p>
+          </div>
+          <div class="tab__image">
+            <a href="pages/table.html" target="_blank"
+              ><img src="img/table.png" alt="table"
+            /></a>
+          </div>
+        </div>
       </div>
       <div class="plan">
-         <div class="plan__title title">
-            <p>Планировка квартир</p>
-         </div>
-         <div class="plan__wrapper">
-            <div class="plan__image">
-               <img src="img/Image-flat.png" alt="cheme">
+        <div class="plan__title title">
+          <p>Планировка квартир</p>
+        </div>
+        <div class="plan__wrapper">
+          <div class="plan__image">
+            <img src="img/Image-flat.png" alt="cheme" />
+          </div>
+          <div class="plan__check">
+            <div class="check__buttons">
+              <button class="button-one">1-комн.</button>
+              <button class="button-two">2-комн.</button>
             </div>
-            <div class="plan__check">
-               <div class="check__buttons">
-                  <button class="button-one">1-комн.</button>
-                  <button class="button-two">2-комн.</button>
-               </div>
-               <div class="check__title">
-                  <p>Однокомнатные квартиры от 23 <sup>м2</sup></p>
-                  <p>от 5 400 000 ₽</p>
-               </div>
-               <div class="check__link">
-                  <a href="pages/projects.html">Подобрать квартиру</a>
-               </div>
+            <div class="check__title">
+              <p>Однокомнатные квартиры от 23 <sup>м2</sup></p>
+              <p>от 5 400 000 ₽</p>
             </div>
-         </div>
+            <div class="check__link">
+              <a href="pages/projects.html">Подобрать квартиру</a>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="photos">
-         <div class="photo__title title">
-            <p>Галерея наших фото</p>
-         </div>
-         <div class="photo__images">
-            <div class="photo__image-one"></div>
-            <div class="photo__image-two"></div>
-            <div class="photo__image-three"></div>
-            <div class="photo__arrows">
-               <div class="arrow-left">
-                  <a href="#"><img src="img/left.svg" alt="left"></a>
-               </div>
-               <div class="arrow-right">
-                  <a href="#"><img src="img/right.svg" alt="right"></a>
-               </div>
+        <div class="photo__title title">
+          <p>Галерея наших фото</p>
+        </div>
+        <div class="photo__images">
+          <div class="photo__image-one"></div>
+          <div class="photo__image-two"></div>
+          <div class="photo__image-three"></div>
+          <div class="photo__arrows">
+            <div class="arrow-left">
+              <a href="#"><img src="img/left.svg" alt="left" /></a>
             </div>
-         </div>
-
+            <div class="arrow-right">
+              <a href="#"><img src="img/right.svg" alt="right" /></a>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="buy">
-         <div class="buy__title title">
-            <p>Как купить?</p>
-         </div>
-         <div class="buy__wrapper">
-            <div class="buy__options">
-               <div class="option__items">
-                  <div class="options__image">
-                     <img src="img/buy1.svg" alt="">
-                  </div>
-                  <div class="option__text">
-                     <p>Материнский капитал</p>
-                     <p>Материнский капитал и другие субсидии в качестве первоначального взноса при покупке жилья в
-                        ипотеку или части стоимости квартиры.</p>
-                  </div>
-               </div>
-               <div class="option__items">
-                  <div class="options__image">
-                     <img src="img/buy2.svg" alt="">
-                  </div>
-                  <div class="option__text">
-                     <p>В ипотеку</p>
-                     <p>Специальные ставки некоторых категорий граждан: многодетных и военных.</p>
-                  </div>
-               </div>
-               <div class="option__items">
-                  <div class="options__image">
-                     <img src="img/buy3.svg" alt="">
-                  </div>
-                  <div class="option__text">
-                     <p>100% оплата</p>
-                     <p>Принимают оплату по безналичному расчету.</p>
-                  </div>
-               </div>
+        <div class="buy__title title">
+          <p>Как купить?</p>
+        </div>
+        <div class="buy__wrapper">
+          <div class="buy__options">
+            <div class="option__items">
+              <div class="options__image">
+                <img src="img/buy1.svg" alt="" />
+              </div>
+              <div class="option__text">
+                <p>Материнский капитал</p>
+                <p>
+                  Материнский капитал и другие субсидии в качестве
+                  первоначального взноса при покупке жилья в ипотеку или части
+                  стоимости квартиры.
+                </p>
+              </div>
             </div>
-            <div class="buy__contacts">
-               <div class="contacts__text">
-                  <p>Есть вопросы?</p>
-                  <p>Закажите бесплатную консультацию или звоните за номером:</p>
-                  <p>+7 982 45-22-67</p>
-               </div>
-               <!-- Modal windows -->
-               <div class="modal fade" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-                  <div class="modal-dialog modal-dialog-centered">
-                     <div class="modal-content">
-                        <div class="modal-body">
-                           <div class="modal-text-one">
-                              <p>Бесплатная консультация</p>
-                              <p>Оставьте заявку и наши специалисты свяжутся с Вами в ближайшее время</p>
-                           </div>
-                           <form class="modal__form">
-                              <div class="form__input">
-                                 <label for="validationDefault01" class="form-label">Ваше имя *</label>
-                                 <input class="form-control" type="text" placeholder="Имя" aria-label="name" required>
-                              </div>
-                              <div class="form__input">
-                                 <label for="validationCustom02" class="form-label">Ваш номер телефона *</label>
-                                 <input class="form-control" type="tel" placeholder="+___ (__) ___ __ __"
-                                    aria-label="phone" required>
-                              </div>
-                           </form>
-                        </div>
-                        <div class="modal__buttons">
-                           <button class="modal__button-one" data-bs-target="#exampleModalToggle2"
-                              data-bs-toggle="modal">Отправить</button>
-                           <button type="button" class="modal__button-two" data-bs-dismiss="modal">Закрыть</button>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="modal fade" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-                  <div class="modal-dialog modal-dialog-centered">
-                     <div class="modal-content">
-                        <div class="modal-body text-center">
-                           <img class="modal-icon" src="img/modal-icon.svg" alt="ok">
-                           <div class="modal-text-two">
-                              <p>Заявка оформлена!</p>
-                              <p>Наши специалисты свяжутся с Вами в ближайшее время</p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <a class="contacts__button" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Заказать
-                  консультацию</a>
-               <!--  -->
+            <div class="option__items">
+              <div class="options__image">
+                <img src="img/buy2.svg" alt="" />
+              </div>
+              <div class="option__text">
+                <p>В ипотеку</p>
+                <p>
+                  Специальные ставки некоторых категорий граждан: многодетных и
+                  военных.
+                </p>
+              </div>
             </div>
-         </div>
+            <div class="option__items">
+              <div class="options__image">
+                <img src="img/buy3.svg" alt="" />
+              </div>
+              <div class="option__text">
+                <p>100% оплата</p>
+                <p>Принимают оплату по безналичному расчету.</p>
+              </div>
+            </div>
+          </div>
+          <div class="buy__contacts">
+            <div class="contacts__text">
+              <p>Есть вопросы?</p>
+              <p>Закажите бесплатную консультацию или звоните за номером:</p>
+              <p>+7 982 45-22-67</p>
+            </div>
+            <!-- Modal windows -->
+            <div
+              class="modal fade"
+              aria-hidden="true"
+              aria-labelledby="exampleModalToggleLabel"
+              tabindex="-1"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <div class="modal-text-one">
+                      <p>Бесплатная консультация</p>
+                      <p>
+                        Оставьте заявку и наши специалисты свяжутся с Вами в
+                        ближайшее время
+                      </p>
+                    </div>
+                    <form class="modal__form">
+                      <div class="form__input">
+                        <label for="validationDefault01" class="form-label"
+                          >Ваше имя *</label
+                        >
+                        <input
+                          class="form-control"
+                          type="text"
+                          placeholder="Имя"
+                          aria-label="name"
+                          required
+                        />
+                      </div>
+                      <div class="form__input">
+                        <label for="validationCustom02" class="form-label"
+                          >Ваш номер телефона *</label
+                        >
+                        <input
+                          class="form-control"
+                          type="tel"
+                          placeholder="+___ (__) ___ __ __"
+                          aria-label="phone"
+                          required
+                        />
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal__buttons">
+                    <button
+                      class="modal__button-one"
+                      data-bs-target="#exampleModalToggle2"
+                      data-bs-toggle="modal"
+                    >
+                      Отправить
+                    </button>
+                    <button
+                      type="button"
+                      class="modal__button-two"
+                      data-bs-dismiss="modal"
+                    >
+                      Закрыть
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="modal fade"
+              aria-hidden="true"
+              aria-labelledby="exampleModalToggleLabel2"
+              tabindex="-1"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body text-center">
+                    <img class="modal-icon" src="img/modal-icon.svg" alt="ok" />
+                    <div class="modal-text-two">
+                      <p>Заявка оформлена!</p>
+                      <p>Наши специалисты свяжутся с Вами в ближайшее время</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a
+              class="contacts__button"
+              data-bs-toggle="modal"
+              href="#exampleModalToggle"
+              role="button"
+              >Заказать консультацию</a
+            >
+            <!--  -->
+          </div>
+        </div>
       </div>
       <div class="clients">
-         <div class="clients__title title">
-            <p>Отзывы наших клиентов</p>
-         </div>
-         <div class="clients__wrapper">
-            <div class="clients__item">
-               <div class="client__info">
-                  <div class="client__photo">
-                     <img src="img/client1.png" alt="client photo">
-                  </div>
-                  <div class="client__about">
-                     <p>Антон Сергеевич</p>
-                     <p>Страница VK</p>
-                  </div>
-               </div>
-               <div class="client__text">
-                  <p>Повседневная практика показывает, что начало повседневной работы по формированию позиции
-                     предопределяет высокую востребованность форм воздействия!</p>
-               </div>
+        <div class="clients__title title">
+          <p>Отзывы наших клиентов</p>
+        </div>
+        <div class="clients__wrapper">
+          <div class="clients__item">
+            <div class="client__info">
+              <div class="client__photo">
+                <img src="img/client1.png" alt="client photo" />
+              </div>
+              <div class="client__about">
+                <p>Антон Сергеевич</p>
+                <p>Страница VK</p>
+              </div>
             </div>
-            <div class="clients__item--active">
-               <div class="client__info">
-                  <div class="client__photo">
-                     <img src="img/client2.png" alt="client photo">
-                  </div>
-                  <div class="client__about">
-                     <p>Виталий Степанов</p>
-                     <p>Страница VK</p>
-                  </div>
-               </div>
-               <div class="client__text">
-                  <p>Современные технологии достигли такого уровня, что внедрение современных методик говорит о
-                     возможностях как самодостаточных, так и внешне зависимых концептуальных решений. Диаграммы связей
-                     объективно рассмотрены соответствующими инстанциями.</p>
-               </div>
+            <div class="client__text">
+              <p>
+                Повседневная практика показывает, что начало повседневной работы
+                по формированию позиции предопределяет высокую востребованность
+                форм воздействия!
+              </p>
             </div>
-            <div class="clients__item">
-               <div class="client__info">
-                  <div class="client__photo">
-                     <img src="img/client3.png" alt="client photo">
-                  </div>
-                  <div class="client__about">
-                     <p>Анна Петровна</p>
-                     <p>Страница VK</p>
-                  </div>
-               </div>
-               <div class="client__text">
-                  <p>Современные технологии достигли такого уровня, что постоянное информационно-пропагандистское
-                     обеспечение нашей деятельности предоставляет широкие возможности для переосмысления
-                     внешнеэкономических политик.</p>
-               </div>
+          </div>
+          <div class="clients__item--active">
+            <div class="client__info">
+              <div class="client__photo">
+                <img src="img/client2.png" alt="client photo" />
+              </div>
+              <div class="client__about">
+                <p>Виталий Степанов</p>
+                <p>Страница VK</p>
+              </div>
             </div>
-         </div>
+            <div class="client__text">
+              <p>
+                Современные технологии достигли такого уровня, что внедрение
+                современных методик говорит о возможностях как самодостаточных,
+                так и внешне зависимых концептуальных решений. Диаграммы связей
+                объективно рассмотрены соответствующими инстанциями.
+              </p>
+            </div>
+          </div>
+          <div class="clients__item">
+            <div class="client__info">
+              <div class="client__photo">
+                <img src="img/client3.png" alt="client photo" />
+              </div>
+              <div class="client__about">
+                <p>Анна Петровна</p>
+                <p>Страница VK</p>
+              </div>
+            </div>
+            <div class="client__text">
+              <p>
+                Современные технологии достигли такого уровня, что постоянное
+                информационно-пропагандистское обеспечение нашей деятельности
+                предоставляет широкие возможности для переосмысления
+                внешнеэкономических политик.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="partners">
-         <div class="partners__title title">
-            <p>Наши партнеры</p>
-         </div>
-         <div class="partners__items">
-            <div class="partners__item item__vtb">
-               <img src="img/vtb.png" alt="vtb">
-            </div>
-            <div class="partners__item item__sber">
-               <img src="img/sber.png" alt="sber">
-            </div>
-            <div class="partners__item item__ros">
-               <img src="img/ros.png" alt="ros">
-            </div>
-         </div>
+        <div class="partners__title title">
+          <p>Наши партнеры</p>
+        </div>
+        <div class="partners__items">
+          <div class="partners__item item__vtb">
+            <img src="img/vtb.png" alt="vtb" />
+          </div>
+          <div class="partners__item item__sber">
+            <img src="img/sber.png" alt="sber" />
+          </div>
+          <div class="partners__item item__ros">
+            <img src="img/ros.png" alt="ros" />
+          </div>
+        </div>
       </div>
       <footer class="footer">
-         <div class="footer__wrapper">
-            <div class="footer__head">
-               <div class="footer__logo">
-                  <img src="img/logowhite.svg" alt="logo">
-               </div>
-               <div class="footer__text">
-                  <p>Остались вопросы?</p>
-                  <p>Закажите бесплатную консультацию</p>
-               </div>
-               <!-- Modal windows -->
-               <div class="modal fade" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-                  <div class="modal-dialog modal-dialog-centered">
-                     <div class="modal-content">
-                        <div class="modal-body">
-                           <div class="modal-text-one">
-                              <p>Бесплатная консультация</p>
-                              <p>Оставьте заявку и наши специалисты свяжутся с Вами в ближайшее время</p>
-                           </div>
-                           <form class="modal__form">
-                              <div class="form__input">
-                                 <label for="validationDefault01" class="form-label">Ваше имя *</label>
-                                 <input class="form-control" type="text" placeholder="Имя" aria-label="name" required>
-                              </div>
-                              <div class="form__input">
-                                 <label for="validationCustom02" class="form-label">Ваш номер телефона *</label>
-                                 <input class="form-control" type="tel" placeholder="+___ (__) ___ __ __"
-                                    aria-label="phone" required>
-                              </div>
-                           </form>
-                        </div>
-                        <div class="modal__buttons">
-                           <button class="modal__button-one" data-bs-target="#exampleModalToggle2"
-                              data-bs-toggle="modal">Отправить</button>
-                           <button type="button" class="modal__button-two" data-bs-dismiss="modal">Закрыть</button>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="modal fade" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-                  <div class="modal-dialog modal-dialog-centered">
-                     <div class="modal-content">
-                        <div class="modal-body text-center">
-                           <img class="modal-icon" src="img/modal-icon.svg" alt="ok">
-                           <div class="modal-text-two">
-                              <p>Заявка оформлена!</p>
-                              <p>Наши специалисты свяжутся с Вами в ближайшее время</p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <a class="footer__button" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Заказать
-                  консультацию</a>
-               <!--  -->
+        <div class="footer__wrapper">
+          <div class="footer__head">
+            <div class="footer__logo">
+              <img src="img/logowhite.svg" alt="logo" />
             </div>
-            <div class="footer__line"></div>
-            <div class="footer__contact">
-               <div class="contact__phone">
-                  <p>Телефон:</p>
-                  <p>+7 982 45-22-67</p>
-               </div>
-               <div class="contact__mail">
-                  <p>Ел. почта:</p>
-                  <p>vozrojdenie@yandex.ru</p>
-               </div>
-               <div class="contact__adress">
-                  <p>Адрес офиса:</p>
-                  <p>Ярославская обл. Ярославль, Почтовая улица 12/2</p>
-               </div>
-               <div class="contact__adress">
-                  <p>Адрес обекта:</p>
-                  <p>Ярославская обл. Ярославль, рядом с ул. Бабича 10/22</p>
-               </div>
+            <div class="footer__text">
+              <p>Остались вопросы?</p>
+              <p>Закажите бесплатную консультацию</p>
             </div>
-            <div class="footer__line"></div>
-            <div class="footer__bottom">
-               <div class="footer__links">
-                  <div class="footer__pol">
-                     <a href="#">Политика конфиденциальности</a>
+            <!-- Modal windows -->
+            <div
+              class="modal fade"
+              aria-hidden="true"
+              aria-labelledby="exampleModalToggleLabel"
+              tabindex="-1"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <div class="modal-text-one">
+                      <p>Бесплатная консультация</p>
+                      <p>
+                        Оставьте заявку и наши специалисты свяжутся с Вами в
+                        ближайшее время
+                      </p>
+                    </div>
+                    <form class="modal__form">
+                      <div class="form__input">
+                        <label for="validationDefault01" class="form-label"
+                          >Ваше имя *</label
+                        >
+                        <input
+                          class="form-control"
+                          type="text"
+                          placeholder="Имя"
+                          aria-label="name"
+                          required
+                        />
+                      </div>
+                      <div class="form__input">
+                        <label for="validationCustom02" class="form-label"
+                          >Ваш номер телефона *</label
+                        >
+                        <input
+                          class="form-control"
+                          type="tel"
+                          placeholder="+___ (__) ___ __ __"
+                          aria-label="phone"
+                          required
+                        />
+                      </div>
+                    </form>
                   </div>
-                  <div class="footer__docs">
-                     <a href="./pages/docs.html">Документы</a>
+                  <div class="modal__buttons">
+                    <button
+                      class="modal__button-one"
+                      data-bs-target="#exampleModalToggle2"
+                      data-bs-toggle="modal"
+                    >
+                      Отправить
+                    </button>
+                    <button
+                      type="button"
+                      class="modal__button-two"
+                      data-bs-dismiss="modal"
+                    >
+                      Закрыть
+                    </button>
                   </div>
-               </div>
-               <div class="footer__icons">
-                  <div class="icon__soc">
-                     <a href="#"><img src="img/vk.svg" alt="vk"></a>
-                     <a href="#"><img src="img/twit.svg" alt="twit"></a>
-                     <a href="#"><img src="img/ig.svg" alt="ig"></a>
-                     <a href="#" class="icon__button"><img src="img/arrow-up.svg" alt="up"></a>
-                  </div>
-               </div>
+                </div>
+              </div>
             </div>
-         </div>
+            <div
+              class="modal fade"
+              aria-hidden="true"
+              aria-labelledby="exampleModalToggleLabel2"
+              tabindex="-1"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body text-center">
+                    <img class="modal-icon" src="img/modal-icon.svg" alt="ok" />
+                    <div class="modal-text-two">
+                      <p>Заявка оформлена!</p>
+                      <p>Наши специалисты свяжутся с Вами в ближайшее время</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a
+              class="footer__button"
+              data-bs-toggle="modal"
+              href="#exampleModalToggle"
+              role="button"
+              >Заказать консультацию</a
+            >
+            <!--  -->
+          </div>
+          <div class="footer__line"></div>
+          <div class="footer__contact">
+            <div class="contact__phone">
+              <p>Телефон:</p>
+              <p>+7 982 45-22-67</p>
+            </div>
+            <div class="contact__mail">
+              <p>Ел. почта:</p>
+              <p>vozrojdenie@yandex.ru</p>
+            </div>
+            <div class="contact__adress">
+              <p>Адрес офиса:</p>
+              <p>Ярославская обл. Ярославль, Почтовая улица 12/2</p>
+            </div>
+            <div class="contact__adress">
+              <p>Адрес обекта:</p>
+              <p>Ярославская обл. Ярославль, рядом с ул. Бабича 10/22</p>
+            </div>
+          </div>
+          <div class="footer__line"></div>
+          <div class="footer__bottom">
+            <div class="footer__links">
+              <div class="footer__pol">
+                <a href="#">Политика конфиденциальности</a>
+              </div>
+              <div class="footer__docs">
+                <a href="./pages/docs.html">Документы</a>
+              </div>
+            </div>
+            <div class="footer__icons">
+              <div class="icon__soc">
+                <a href="#"><img src="img/vk.svg" alt="vk" /></a>
+                <a href="#"><img src="img/twit.svg" alt="twit" /></a>
+                <a href="#"><img src="img/ig.svg" alt="ig" /></a>
+                <a href="#" class="icon__button"
+                  ><img src="img/arrow-up.svg" alt="up"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
       </footer>
-   </div>
+    </div>
 
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-      crossorigin="anonymous"></script>
-</body>
-
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
