@@ -19,6 +19,7 @@
       .header {
          padding: 15px 20px;
       }
+      
       .header__nav {
          display: none;
       }
@@ -66,6 +67,9 @@
                left: 220px;
             }
          }
+         .nev-adtitle {
+            flex-direction: column;
+         }
          .main__buttons {
             display: flex;
             flex-direction: column;
@@ -86,6 +90,13 @@
          & img {
             margin-left: 10px;
          }
+      }
+   }
+
+   .nev-adhead {
+      justify-content: space-around;
+      .nev-adlogo {
+         margin-right: 140px;
       }
    }
 

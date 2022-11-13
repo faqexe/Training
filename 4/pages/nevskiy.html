@@ -18,10 +18,23 @@
 <body>
    <div class="wrapper">
       <div class="head">
-         <header class="header">
-            <div class="header__logo">
+         <header class="header nev-adhead">
+            <div class="header__logo nev-adlogo">
                <a href="../index.html"><img src="../img/nevskiy/Logo.svg " alt="Logo"></a>
             </div>
+
+            <div>
+               <button class="hamburger__button" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Меню<img
+                     src="../img/adaptive/hamb.svg" alt="hamb"></button>
+            </div>
+            <div class="collapse" id="collapseExample">
+               <div class="card card-body">
+                  Некоторый заполнитель для компонента сворачивания. Эта панель по умолчанию скрыта, но открывается,
+                  когда пользователь активирует соответствующий триггер.
+               </div>
+            </div>
+
             <div class="header__nav">
                <ul>
                   <li><a href="../pages/about.html">О компании</a></li>
@@ -40,8 +53,11 @@
                </div>
             </div>
          </header>
+         <div class="mobile__image">
+            <img src="../img/adaptive/nev-bg-mobile.png" alt="mobile">
+         </div>
          <div class="main">
-            <div class="main__title">
+            <div class="main__title nev-adtitle">
                <p>Доступные квартиры от 1, 6 млн. руб. в Рыбинске</p>
                <p>Сдача дома: декабрь 2021 год</p>
             </div>
@@ -107,6 +123,8 @@
                <div class="col col-one">
                   <img src="../img/ico6.svg" alt="">
                   <p>Инфраструктура</p>
+                  <img class="arrowd" src="../img/adaptive/arrowd.svg" alt="arrow">
+                  <img class="arrowu" src="../img/adaptive/arrowu.svg" alt="arrow">
                   <p class="active">Рядом лес, Волга и зоны для отдыха. Шум и пыль не будут вас беспокоить, так как дом
                      находится на второй линии, а развитая инфраструктура этой части города будет полностью в Вашем
                      распоряженииЭкология</p>
@@ -114,6 +132,8 @@
                <div class="col col-two">
                   <img src="../img/ico1.svg" alt="">
                   <p>Экология</p>
+                  <img class="arrowd" src="../img/adaptive/arrowd.svg" alt="arrow">
+                  <img class="arrowu" src="../img/adaptive/arrowu.svg" alt="arrow">
                   <p class="active">Рядом лес, Волга и зоны для отдыха. Шум и пыль не будут вас беспокоить, так как дом
                      находится на второй линии, а развитая инфраструктура этой части города будет полностью в Вашем
                      распоряженииЭкология</p>
@@ -121,6 +141,8 @@
                <div class="col col-three">
                   <img src="../img/ico4.svg" alt="">
                   <p>Транспортная доступность</p>
+                  <img class="arrowd" src="../img/adaptive/arrowd.svg" alt="arrow">
+                  <img class="arrowu" src="../img/adaptive/arrowu.svg" alt="arrow">
                   <p class="active">Рядом лес, Волга и зоны для отдыха. Шум и пыль не будут вас беспокоить, так как дом
                      находится на второй линии, а развитая инфраструктура этой части города будет полностью в Вашем
                      распоряженииЭкология</p>
@@ -128,6 +150,8 @@
                <div class="col col-four">
                   <img src="../img/ico5.svg" alt="">
                   <p>Разнообразие планировки</p>
+                  <img class="arrowd" src="../img/adaptive/arrowd.svg" alt="arrow">
+                  <img class="arrowu" src="../img/adaptive/arrowu.svg" alt="arrow">
                   <p class="active">Рядом лес, Волга и зоны для отдыха. Шум и пыль не будут вас беспокоить, так как дом
                      находится на второй линии, а развитая инфраструктура этой части города будет полностью в Вашем
                      распоряженииЭкология</p>
@@ -135,6 +159,8 @@
                <div class="col col-five">
                   <img src="../img/ico3.svg" alt="">
                   <p>Надежность</p>
+                  <img class="arrowd" src="../img/adaptive/arrowd.svg" alt="arrow">
+                  <img class="arrowu" src="../img/adaptive/arrowu.svg" alt="arrow">
                   <p class="active">Рядом лес, Волга и зоны для отдыха. Шум и пыль не будут вас беспокоить, так как дом
                      находится на второй линии, а развитая инфраструктура этой части города будет полностью в Вашем
                      распоряженииЭкология</p>
@@ -142,6 +168,8 @@
                <div class="col col-six">
                   <img src="../img/ico2.svg" alt="">
                   <p>Доступная стоимость</p>
+                  <img class="arrowd" src="../img/adaptive/arrowd.svg" alt="arrow">
+                  <img class="arrowu" src="../img/adaptive/arrowu.svg" alt="arrow">
                   <p class="active">Рядом лес, Волга и зоны для отдыха. Шум и пыль не будут вас беспокоить, так как дом
                      находится на второй линии, а развитая инфраструктура этой части города будет полностью в Вашем
                      распоряженииЭкология</p>
@@ -402,7 +430,7 @@
                   <div class="modal-dialog modal-dialog-centered">
                      <div class="modal-content">
                         <div class="modal-body text-center">
-                           <img class="modal-icon" src="../img/modal-icon.svg" alt="ok">
+                           <img class="modal-icon" src="img/modal-icon.svg" alt="ok">
                            <div class="modal-text-two">
                               <p>Заявка оформлена!</p>
                               <p>Наши специалисты свяжутся с Вами в ближайшее время</p>
@@ -436,11 +464,13 @@
             </div>
             <div class="footer__line"></div>
             <div class="footer__bottom">
-               <div class="footer__pol">
-                  <a href="#">Политика конфиденциальности</a>
-               </div>
-               <div class="footer__docs">
-                  <a href="#">Документы</a>
+               <div class="footer__links">
+                  <div class="footer__pol">
+                     <a href="#">Политика конфиденциальности</a>
+                  </div>
+                  <div class="footer__docs">
+                     <a href="#">Документы</a>
+                  </div>
                </div>
                <div class="footer__icons">
                   <div class="icon__soc">

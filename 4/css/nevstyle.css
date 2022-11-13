@@ -1,5 +1,6 @@
 .wrapper {
-  min-width: 1920px;
+  min-width: 100%;
+  width: 1920px;
   background: #f9fcff;
   min-height: 100%;
   display: flex;
@@ -19,9 +20,12 @@
 }
 
 .head {
-  background-image: url(../img/nevskiy/Bg.png);
+  background-image: url(../img/Bg.png);
+  width: 100%;
+  max-width: 1920px;
   height: 800px;
   margin-bottom: 161px;
+  align-self: center;
 }
 
 .header {
@@ -34,100 +38,138 @@
   backdrop-filter: blur(2.5px);
   padding-top: 15px;
 }
-.header .header__nav {
+
+.hamburger__button {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #409fff 0%, #007fff 100%);
+  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25),
+    inset 0px -2px 0px rgba(0, 32, 64, 0.1);
+  border-radius: 79px;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+}
+
+.header__nav {
   font-weight: 500;
   line-height: 20px;
   text-align: center;
   margin: 0 auto;
+  height: 32px;
 }
-.header .header__nav ul {
+
+.header__nav ul {
   list-style: none;
   margin: 0;
 }
-.header .header__nav ul li {
+
+.header__nav ul li {
   display: inline-flex;
   align-items: center;
   margin-right: 60px;
+  height: 30px;
 }
-.header .header__nav ul li:last-child {
+
+.header__nav ul li:last-child {
   margin-right: 0;
 }
-.header .header__nav ul li a {
+
+.header__nav ul li a {
   text-decoration: none;
   color: #002040;
 }
-.header .header__contacts {
+
+.header__nav ul li:hover {
+  border-bottom: 2px solid #002040;
+}
+
+.header__contacts {
   display: flex;
 }
-.header .header__contacts .contacts__text {
+
+.header__contacts .contacts__text {
   margin-right: 10px;
 }
-.header .header__contacts .contacts__text .tel {
+
+.header__contacts .contacts__text .tel {
   padding: 0;
   margin-bottom: 1px;
   font-weight: 700;
   font-size: 18px;
   line-height: 22px;
 }
-.header .header__contacts .contacts__text .time {
+
+.header__contacts .contacts__text .time {
   padding: 0;
   margin-bottom: 0;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
 }
-.header .contacts__button {
+
+.contacts__button {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 40px;
   height: 40px;
+  padding: 11.67px 11.67px 11.73px 11.76px;
   background: linear-gradient(180deg, #409fff 0%, #007fff 100%);
   box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25),
     inset 0px -2px 0px rgba(0, 32, 64, 0.1);
   border-radius: 79px;
 }
-.header .contacts__button img {
+
+.contacts__button img {
   padding-bottom: 4px;
 }
-.header .contacts__button:hover {
+
+.contacts__button:hover {
   background: #007fff;
   box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25),
     inset 0px -2px 0px rgba(0, 32, 64, 0.1);
 }
 
+.mobile__image {
+  display: none;
+}
+
 .main {
+  display: flex;
+  flex-direction: column;
   height: 800px;
 }
+
 .main .main__title {
   width: 730px;
   margin: 209px 0 40px 320px;
   position: relative;
 }
+
 .main .main__title p {
   font-weight: 500;
   font-size: 44px;
   line-height: 54px;
 }
-.main .main__title p:last-child {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-}
+
 .main .main__buttons {
   display: flex;
   margin-left: 320px;
+  height: 80px;
 }
+
 .main .main__buttons a {
   text-decoration: none;
 }
+
 .main .main__buttons .buttons__flat--active {
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
-  width: 326px;
-  height: 80px;
+  padding: 30px 60px;
   background: linear-gradient(180deg, #409fff 0%, #007fff 100%);
   box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25),
     inset 0px -2px 0px rgba(0, 32, 64, 0.1);
@@ -137,22 +179,24 @@
   color: #fff;
   margin-right: 10px;
 }
+
 .main .main__buttons .buttons__flat--active img {
   padding-left: 25px;
 }
+
 .main .main__buttons .buttons__consultant {
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
-  width: 326px;
-  height: 80px;
+  padding: 30px 60px;
   border: 1px solid #002040;
   border-radius: 79px;
   font-weight: 500;
   line-height: 20px;
   color: #002040;
 }
+
 .main .main__buttons .buttons__consultant:hover {
   background: linear-gradient(180deg, #409fff 0%, #007fff 100%);
   box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25),
@@ -178,7 +222,7 @@
 .life .wrapper__life .life__grid .col {
   width: 400px;
   height: 400px;
-  background: linear-gradient(0deg, rgba(0, 32, 64, 0.25), rgba(0, 32, 64, 0.25)), url(.jpg);
+  background: linear-gradient(0deg, rgba(0, 32, 64, 0.25), rgba(0, 32, 64, 0.25));
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -200,6 +244,10 @@
   line-height: 20px;
   text-align: center;
   color: #ffffff;
+  display: none;
+}
+.life .wrapper__life .life__grid .col .arrowd,
+.life .wrapper__life .life__grid .col .arrowu {
   display: none;
 }
 .life .wrapper__life .life__grid .col-one {
@@ -638,7 +686,7 @@
   align-items: center;
 }
 .footer .footer__wrapper .footer__head .footer__logo {
-  margin-right: 418.34px;
+  margin-right: 291px;
 }
 .footer .footer__wrapper .footer__head .footer__text {
   text-align: center;
@@ -718,7 +766,10 @@
 .footer .footer__wrapper .footer__bottom a {
   color: #fff;
 }
-.footer .footer__wrapper .footer__bottom .footer__pol {
+.footer .footer__wrapper .footer__bottom .footer__links {
+  display: flex;
+}
+.footer .footer__wrapper .footer__bottom .footer__links .footer__pol {
   width: 278px;
   margin-right: 80px;
 }

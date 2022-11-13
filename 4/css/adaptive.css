@@ -59,6 +59,9 @@
     top: 29px;
     left: 220px;
   }
+  .head .main .nev-adtitle {
+    flex-direction: column;
+  }
   .head .main .main__buttons {
     display: flex;
     flex-direction: column;
@@ -77,6 +80,12 @@
   }
   .head .hamburger__button img {
     margin-left: 10px;
+  }
+  .nev-adhead {
+    justify-content: space-around;
+  }
+  .nev-adhead .nev-adlogo {
+    margin-right: 140px;
   }
   .life {
     margin-bottom: 120px;
