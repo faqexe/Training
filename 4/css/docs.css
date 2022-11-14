@@ -421,54 +421,6 @@
   .head .header .hamburger__button img {
     margin-left: 10px;
   }
-  .head .footer {
-    height: 934px;
-  }
-  .head .footer .footer__wrapper .footer__head {
-    flex-direction: column;
-    justify-content: center;
-    height: 247px;
-    margin-bottom: 40px;
-    margin-top: 40px;
-  }
-  .head .footer .footer__wrapper .footer__head .footer__logo {
-    margin-right: 0;
-  }
-  .head .footer .footer__wrapper .footer__head .footer__text {
-    margin-right: 0;
-  }
-  .head .footer .footer__wrapper .footer__contact {
-    margin: 40px 0 40px 0;
-    height: 360px;
-    flex-direction: column;
-  }
-  .head .footer .footer__wrapper .footer__contact div {
-    width: 400px;
-    margin-right: 0;
-    margin-bottom: 40px;
-  }
-  .head .footer .footer__wrapper .footer__contact div p {
-    margin-bottom: 0;
-  }
-  .head .footer .footer__wrapper .footer__contact div p:first-child {
-    margin-bottom: 10px;
-  }
-  .head .footer .footer__wrapper .footer__bottom {
-    margin-top: 40px;
-    flex-direction: column;
-  }
-  .head .footer .footer__wrapper .footer__bottom .footer__links {
-    margin-bottom: 40px;
-  }
-  .head .footer .footer__wrapper .footer__bottom .footer__links .footer__pol {
-    margin-right: 64px;
-  }
-  .head .footer .footer__wrapper .footer__bottom .footer__icons {
-    margin-left: 0;
-  }
-  .head .footer .footer__wrapper .footer__bottom .footer__icons .icon__soc a:nth-child(3) {
-    padding-right: 265px;
-  }
   .docs {
     margin-bottom: 160px;
   }
