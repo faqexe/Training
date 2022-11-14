@@ -35,7 +35,7 @@
   padding: 0 320px 0 320px;
   background: rgba(255, 255, 255, 0.5);
   -webkit-backdrop-filter: blur(2.5px);
-  backdrop-filter: blur(2.5px);
+          backdrop-filter: blur(2.5px);
   padding-top: 15px;
 }
 
@@ -44,8 +44,7 @@
   justify-content: center;
   align-items: center;
   background: linear-gradient(180deg, #409fff 0%, #007fff 100%);
-  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25),
-    inset 0px -2px 0px rgba(0, 32, 64, 0.1);
+  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 32, 64, 0.1);
   border-radius: 79px;
   padding: 10px 20px;
   color: #fff;
@@ -109,8 +108,7 @@
   height: 40px;
   padding: 11.67px 11.67px 11.73px 11.76px;
   background: linear-gradient(180deg, #409fff 0%, #007fff 100%);
-  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25),
-    inset 0px -2px 0px rgba(0, 32, 64, 0.1);
+  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 32, 64, 0.1);
   border-radius: 79px;
 }
 .contacts__button img {
@@ -118,8 +116,7 @@
 }
 .contacts__button:hover {
   background: #007fff;
-  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25),
-    inset 0px -2px 0px rgba(0, 32, 64, 0.1);
+  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 32, 64, 0.1);
 }
 
 .mobile__image {
@@ -166,8 +163,7 @@
   justify-content: center;
   padding: 30px 60px;
   background: linear-gradient(180deg, #409fff 0%, #007fff 100%);
-  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25),
-    inset 0px -2px 0px rgba(0, 32, 64, 0.1);
+  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 32, 64, 0.1);
   border-radius: 79px;
   font-weight: 700;
   line-height: 20px;
@@ -191,8 +187,7 @@
 }
 .main .main__buttons .buttons__consultant:hover {
   background: linear-gradient(180deg, #409fff 0%, #007fff 100%);
-  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25),
-    inset 0px -2px 0px rgba(0, 32, 64, 0.1);
+  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 32, 64, 0.1);
   font-weight: 700;
   color: #fff;
   border: none;
@@ -414,7 +409,7 @@
   background: rgba(255, 255, 255, 0.5);
   box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1);
   -webkit-backdrop-filter: blur(2.5px);
-  backdrop-filter: blur(2.5px);
+          backdrop-filter: blur(2.5px);
   border-radius: 30px;
   margin: 0 10px 20px 20px;
 }
@@ -451,7 +446,7 @@
   background: rgba(255, 255, 255, 0.5);
   box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1);
   -webkit-backdrop-filter: blur(2.5px);
-  backdrop-filter: blur(2.5px);
+          backdrop-filter: blur(2.5px);
   border-radius: 30px;
   margin: 0 10px 20px 20px;
 }
@@ -488,7 +483,7 @@
   background: rgba(255, 255, 255, 0.5);
   box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1);
   -webkit-backdrop-filter: blur(2.5px);
-  backdrop-filter: blur(2.5px);
+          backdrop-filter: blur(2.5px);
   border-radius: 30px;
   margin: 0 10px 20px 20px;
 }
@@ -535,7 +530,7 @@
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1);
   -webkit-backdrop-filter: blur(2.5px);
-  backdrop-filter: blur(2.5px);
+          backdrop-filter: blur(2.5px);
   border-radius: 30px;
   text-align: center;
   padding: 10px;
@@ -660,8 +655,7 @@
   height: 80px;
   padding: 30px;
   background: linear-gradient(180deg, #409fff 0%, #007fff 100%);
-  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25),
-    inset 0px -2px 0px rgba(0, 32, 64, 0.1);
+  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 32, 64, 0.1);
   border-radius: 79px;
   margin-bottom: 40px;
 }
@@ -674,8 +668,7 @@
 }
 .plan .plan__wrapper .plan__check .check__link:hover {
   background: #007fff;
-  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25),
-    inset 0px -2px 0px rgba(0, 32, 64, 0.1);
+  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 32, 64, 0.1);
 }
 
 .photos {
@@ -728,7 +721,7 @@
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1);
   -webkit-backdrop-filter: blur(2.5px);
-  backdrop-filter: blur(2.5px);
+          backdrop-filter: blur(2.5px);
   border-radius: 30px;
   text-align: center;
   padding: 10px;
@@ -766,8 +759,7 @@
   width: 90px;
   height: 90px;
   background: linear-gradient(180deg, #409fff 0%, #007fff 100%);
-  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25),
-    inset 0px -2px 0px rgba(0, 32, 64, 0.1);
+  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 32, 64, 0.1);
   border-radius: 79px;
   margin: 40px;
 }
@@ -802,8 +794,7 @@
 .buy .buy__wrapper .buy__contacts .contacts__text p {
   text-align: center;
 }
-.buy .buy__wrapper .buy__contacts .contacts__text p:first-child,
-.buy .buy__wrapper .buy__contacts .contacts__text p:last-child {
+.buy .buy__wrapper .buy__contacts .contacts__text p:first-child, .buy .buy__wrapper .buy__contacts .contacts__text p:last-child {
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
@@ -825,14 +816,12 @@
   width: 327px;
   height: 80px;
   background: linear-gradient(180deg, #409fff 0%, #007fff 100%);
-  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25),
-    inset 0px -2px 0px rgba(0, 32, 64, 0.1);
+  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 32, 64, 0.1);
   border-radius: 79px;
 }
 .buy .buy__wrapper .buy__contacts .contacts__button:hover {
   background: #007fff;
-  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25),
-    inset 0px -2px 0px rgba(0, 32, 64, 0.1);
+  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 32, 64, 0.1);
 }
 
 .clients {
@@ -1106,8 +1095,7 @@
 
 .modal__button-one {
   background: linear-gradient(180deg, #409fff 0%, #007fff 100%);
-  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25),
-    inset 0px -2px 0px rgba(0, 32, 64, 0.1);
+  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 32, 64, 0.1);
   border-radius: 10px;
   margin-bottom: 20px;
   font-weight: 700;
@@ -1131,8 +1119,7 @@
 
 .modal-icon {
   background: linear-gradient(180deg, #409fff 0%, #007fff 100%);
-  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25),
-    inset 0px -2px 0px rgba(0, 32, 64, 0.1);
+  box-shadow: 0px 10px 10px rgba(0, 32, 64, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.25), inset 0px -2px 0px rgba(0, 32, 64, 0.1);
   border-radius: 79px;
   padding: 37.5px 35px 38.75px 35px;
   margin-top: 195px;
