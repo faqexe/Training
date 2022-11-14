@@ -345,8 +345,11 @@
 }
 
 .modal-text-one {
-  margin: 60px 60px 40px 60px;
   width: 390px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  text-align: center;
 }
 .modal-text-one p:first-child {
   font-weight: 600;
