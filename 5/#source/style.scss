@@ -1,0 +1,100 @@
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Poppins', sans-serif;
+
+// Автоматический перевод из пикселей в нужные единицы
+
+// //TO %
+@function prc($pxOne, $pxTwo) {
+  $result: math.div($pxOne, $pxTwo) * 100%;
+  @return $result;
+}
+// //REM
+@function rem($px) {
+  $result: math.div($px, 16) + rem;
+  @return $result;
+}
+// //EM
+@function em($px) {
+  $result: math.div($px, 16) + em;
+  @return $result;
+}
+
+// Пример
+// 	.title {
+// 		font-size: rem(42); – единица, в которую нужно перевести(в скобках размер в пикселях)
+// 	}
+
+@import "nullstyle.scss";
+
+body {
+  a,
+  h1,
+  p {
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+.wrapper {
+  background: #e5e5e5;
+}
+
+.header__nav {
+  height: 74px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 6px 376px 23px 86px;
+  .logo {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 45px;
+    letter-spacing: 1.1px;
+    text-transform: lowercase;
+    margin-right: 210px;
+  }
+  .nav {
+    .nav__list {
+      display: flex;
+      & a {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0.2px;
+        text-transform: lowercase;
+        color: #222;
+        margin-right: 33px;
+        transition: all 0.3s;
+        &:hover {
+          color: #fd8558;
+        }
+      }
+    }
+  }
+}
+
+.main {
+   height: 766px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  .main__text {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 85px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 54px;
+  }
+  .main__buttons {
+    & a {
+      padding: 13px 38px;
+      background: #fd8558;
+      margin-right: 28px;
+      color: #fff;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 30px;
+    }
+  }
+}
