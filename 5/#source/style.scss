@@ -1,41 +1,18 @@
 // font-family: 'Open Sans', sans-serif;
 // font-family: 'Poppins', sans-serif;
 
-// Автоматический перевод из пикселей в нужные единицы
-
-// //TO %
-@function prc($pxOne, $pxTwo) {
-  $result: math.div($pxOne, $pxTwo) * 100%;
-  @return $result;
-}
-// //REM
-@function rem($px) {
-  $result: math.div($px, 16) + rem;
-  @return $result;
-}
-// //EM
-@function em($px) {
-  $result: math.div($px, 16) + em;
-  @return $result;
-}
-
-// Пример
-// 	.title {
-// 		font-size: rem(42); – единица, в которую нужно перевести(в скобках размер в пикселях)
-// 	}
-
 @import "nullstyle.scss";
 
 body {
-  a,
-  h1,
-  p {
-    font-family: "Poppins", sans-serif;
-  }
+  font-family: "Poppins", sans-serif;
 }
 
 .wrapper {
-  background: #e5e5e5;
+  background: #fff;
+}
+
+.header {
+  margin-bottom: 85px;
 }
 
 .header__nav {
@@ -46,7 +23,7 @@ body {
   padding: 6px 376px 23px 86px;
   .logo {
     font-weight: 700;
-    font-size: 28px;
+    font-size: 2rem;
     line-height: 45px;
     letter-spacing: 1.1px;
     text-transform: lowercase;
@@ -56,7 +33,7 @@ body {
     .nav__list {
       display: flex;
       & a {
-        font-size: 15px;
+        font-size: 1.071rem;
         font-weight: 400;
         line-height: 16px;
         letter-spacing: 0.2px;
@@ -73,14 +50,17 @@ body {
 }
 
 .main {
-   height: 766px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
+  height: 766px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/BGmain.png);
+  background-size: cover;
+  background-position: center;
   .main__text {
     font-weight: 400;
-    font-size: 70px;
+    font-size: 5rem;
     line-height: 85px;
     color: #ffffff;
     text-align: center;
@@ -88,13 +68,116 @@ body {
   }
   .main__buttons {
     & a {
-      padding: 13px 38px;
-      background: #fd8558;
+      padding: 12px 39px 14px 37px;
+      border: 2px solid #fd8558;
       margin-right: 28px;
       color: #fff;
       font-weight: 700;
-      font-size: 15px;
+      font-size: 1.071rem;
       line-height: 30px;
+      transition: all 0.3s;
+      &:last-child {
+        margin-right: 0;
+      }
+      &:hover {
+        background: #fd8558;
+      }
+    }
+  }
+}
+
+.about {
+  .about__wrapper {
+    .about__text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 58px;
+      .text__header {
+        font-weight: 400;
+        font-size: 10.714rem;
+        line-height: 145px;
+        letter-spacing: 0.1px;
+        color: #f7f7f7;
+        margin-bottom: 13px;
+      }
+      .text__about {
+        display: flex;
+        justify-content: center;
+        .description-left {
+          width: 37.5rem;
+          margin-right: 15px;
+          .dl__header {
+            font-weight: 400;
+            line-height: 15px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #fd8558;
+            margin-bottom: 34px;
+          }
+          .dl__text {
+            font-weight: 400;
+            font-size: 2.857rem;
+            line-height: 54px;
+            color: #333333;
+          }
+        }
+        .description-right {
+          width: 47.143rem;
+          .dr__text {
+            & p:first-child {
+              font-weight: 400;
+              font-size: 1.286rem;
+              line-height: 28px;
+              text-transform: capitalize;
+              color: #222222;
+              margin-bottom: 11px;
+            }
+            & p:last-child {
+              font-weight: 400;
+              font-size: 1.071rem;
+              line-height: 26px;
+              color: #999999;
+            }
+          }
+        }
+      }
+    }
+    .about__mission {
+      display: flex;
+      justify-content: center;
+      .mission__description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 395px;
+        margin-left: 65px;
+        & p:nth-child(1) {
+          font-weight: 400;
+          font-size: 1.857rem;
+          line-height: 45px;
+          color: #222222;
+          margin-bottom: 56px;
+          & span {
+            font-style: italic;
+            color: #fd8558;
+          }
+        }
+        & p:nth-child(2) {
+          font-weight: 400;
+          font-size: 1.429rem;
+          line-height: 20px;
+          color: #222222;
+          margin-bottom: 14px;
+        }
+        & p:nth-child(3) {
+          font-weight: 400;
+          font-size: 0.857rem;
+          line-height: 22px;
+          letter-spacing: 1.8px;
+          color: #cacaca;
+        }
+      }
     }
   }
 }
