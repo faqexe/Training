@@ -50,7 +50,8 @@ body {
 /*Обращаемся к тэгам форм и просим их наследовать семейство шрифтов*/
 input,
 button,
-textarea {
+textarea,
+select {
   font-family: inherit;
 }
 
@@ -94,6 +95,18 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: 400;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  min-height: 100vh;
 }
 
 /*------------------------------------------------------*/
