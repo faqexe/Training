@@ -459,3 +459,114 @@ body {
   border: 0.2rem solid #222222;
   accent-color: #fff;
 }
+
+.modern {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modern__wrapper {
+  display: flex;
+  width: 120rem;
+  justify-content: center;
+  align-items: center;
+}
+.modern__text {
+  margin-right: 1.6rem;
+  width: 45.6rem;
+}
+.modern__text-header {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: #fd8558;
+}
+.modern__text-par {
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 3.8rem;
+  color: #222222;
+  margin-bottom: 1.2rem;
+}
+.modern__text-text {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+  color: #999999;
+}
+.modern__lines .modern__lines-illustration {
+  margin-bottom: 4.5rem;
+}
+.modern__lines .modern__lines-illustration p:first-child {
+  margin-right: 40.4rem;
+}
+.modern__lines .modern__lines-design {
+  margin-bottom: 4.5rem;
+}
+.modern__lines .modern__lines-design p:first-child {
+  margin-right: 34.8rem;
+}
+.modern__lines .modern__lines-development p:first-child {
+  margin-right: 40.8rem;
+}
+.modern__lines p {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: #222222;
+}
+.modern__lines .text-percent {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+  color: #999999;
+}
+.modern__lines .label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+.modern__lines .line90 {
+  width: 60rem;
+  height: 1rem;
+  background: #EEEEEE;
+  position: relative;
+}
+.modern__lines .line90 span {
+  width: 54rem;
+  height: 1rem;
+  background: linear-gradient(90deg, #FF4803 0%, #FFAE35 59.74%);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.modern__lines .line80 {
+  width: 60rem;
+  height: 1rem;
+  background: #EEEEEE;
+  position: relative;
+}
+.modern__lines .line80 span {
+  width: 48rem;
+  height: 1rem;
+  background: linear-gradient(90deg, #FF4803 0%, #FFAE35 59.74%);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.modern__lines .line95 {
+  width: 60rem;
+  height: 1rem;
+  background: #EEEEEE;
+  position: relative;
+}
+.modern__lines .line95 span {
+  width: 57rem;
+  height: 1rem;
+  background: linear-gradient(90deg, #FF4803 0%, #FFAE35 59.74%);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
