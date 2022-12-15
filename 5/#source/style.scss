@@ -442,12 +442,12 @@ body {
     .line90 {
       width: 60rem;
       height: 1rem;
-      background: #EEEEEE;
+      background: #eeeeee;
       position: relative;
       span {
         width: 54rem;
         height: 1rem;
-        background: linear-gradient(90deg, #FF4803 0%, #FFAE35 59.74%);
+        background: linear-gradient(90deg, #ff4803 0%, #ffae35 59.74%);
         position: absolute;
         top: 0;
         left: 0;
@@ -456,12 +456,12 @@ body {
     .line80 {
       width: 60rem;
       height: 1rem;
-      background: #EEEEEE;
+      background: #eeeeee;
       position: relative;
       span {
         width: 48rem;
         height: 1rem;
-        background: linear-gradient(90deg, #FF4803 0%, #FFAE35 59.74%);
+        background: linear-gradient(90deg, #ff4803 0%, #ffae35 59.74%);
         position: absolute;
         top: 0;
         left: 0;
@@ -470,16 +470,262 @@ body {
     .line95 {
       width: 60rem;
       height: 1rem;
-      background: #EEEEEE;
+      background: #eeeeee;
       position: relative;
       span {
         width: 57rem;
         height: 1rem;
-        background: linear-gradient(90deg, #FF4803 0%, #FFAE35 59.74%);
+        background: linear-gradient(90deg, #ff4803 0%, #ffae35 59.74%);
         position: absolute;
         top: 0;
         left: 0;
       }
     }
+  }
+}
+
+.team {
+  margin-bottom: 11.5rem;
+  &__wrapper {
+    padding-top: 10.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__header-text1 {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    color: #fd8558;
+    margin-bottom: 3rem;
+  }
+  &__header-text2 {
+    font-weight: 400;
+    font-size: 3.2rem;
+    line-height: 4.2rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: #222222;
+    margin-bottom: 3.9rem;
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: 35rem 35rem 35rem;
+    grid-template-rows: 35rem 35rem;
+    gap: 3rem;
+    justify-content: center;
+    margin-bottom: 8rem;
+  }
+  &__grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p:first-child {
+      font-weight: 400;
+      font-size: 2.4rem;
+      line-height: 3rem;
+      text-align: center;
+      text-transform: capitalize;
+      color: #ffffff;
+      margin-bottom: 0.1rem;
+    }
+    p:last-child {
+      font-weight: 400;
+      font-size: 1.4rem;
+      line-height: 2.4rem;
+      text-align: center;
+      color: #fcfcfc;
+    }
+    &:nth-child(1) {
+      background: url(../img/gallary/team/1.png) no-repeat;
+    }
+    &:nth-child(2) {
+      background: url(../img/gallary/team/2.png) no-repeat;
+    }
+    &:nth-child(3) {
+      background: url(../img/gallary/team/3.png) no-repeat;
+    }
+    &:nth-child(4) {
+      background: url(../img/gallary/team/4.png) no-repeat;
+    }
+    &:nth-child(5) {
+      background: url(../img/gallary/team/5.png) no-repeat;
+    }
+    &:nth-child(6) {
+      background: url(../img/gallary/team/6.png) no-repeat;
+    }
+  }
+  &__button {
+    a {
+      font-weight: 700;
+      font-size: 1.5rem;
+      line-height: 3rem;
+      color: #ffffff;
+    }
+    background: #fd8558;
+    padding: 1.3rem 3.7rem;
+    &:hover {
+      opacity: 90%;
+    }
+  }
+}
+.test {
+  background: #3a0f73;
+  height: 76rem;
+  margin-bottom: 11.5rem;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__header {
+    font-weight: 400;
+    font-size: 20rem;
+    line-height: 22rem;
+    text-align: center;
+    color: rgba(170, 170, 170, 0.1);
+    margin-top: 7rem;
+    margin-bottom: 4.4rem;
+  }
+  &__block {
+  }
+  &__block-text {
+    width: 82.4rem;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.9rem;
+    text-align: center;
+    letter-spacing: 0.02rem;
+    color: #ffffff;
+    margin-bottom: 6.4rem;
+  }
+  &__block-team {
+  }
+}
+.block-team {
+  &__items {
+    display: flex;
+    justify-content: center;
+  }
+}
+.item-image {
+  margin-right: 1.5rem;
+}
+.item-text {
+  display: flex;
+  flex-direction: column;
+  padding: 0.7rem 0 0.8rem 0;
+  p:first-child {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    color: #ffffff;
+    padding-top: 0.7rem;
+  }
+  p:last-child {
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+    text-align-last: left;
+    color: #ffffff;
+    padding-bottom: 0.8rem;
+  }
+}
+
+.planet {
+  margin-bottom: 11.5rem;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__header {
+    margin-bottom: 1.6rem;
+    p:first-child {
+      font-weight: 400;
+      font-size: 1.4rem;
+      line-height: 1.5rem;
+      text-align: center;
+      letter-spacing: 0.2rem;
+      text-transform: uppercase;
+      color: #fd8558;
+      margin-bottom: 4.7rem;
+    }
+    p:last-child {
+      font-weight: 400;
+      font-size: 3.2rem;
+      line-height: 4.2rem;
+      text-align: center;
+      color: #222222;
+    }
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+    width: 117rem;
+  }
+  &__grid-item {
+  }
+  &__grid-item-image {
+    margin-bottom: 1.8rem;
+  }
+  &__grid-item-block {
+  }
+}
+.item-date {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.date-links {
+  a {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+    color: #fd8558;
+    &:first-child {
+      margin-right: 1.5rem;
+    }
+  }
+}
+.date {
+  display: flex;
+  align-items: center;
+  p {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #999999;
+  }
+}
+.gray-cube {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: #dfdede;
+  margin-left: 1.5rem;
+  margin-right: 1rem;
+}
+.item-block-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #222222;
+  padding-right: 3.4rem;
+  margin-bottom: 3.6rem;
+}
+.item-link {
+  a {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+    color: #fd8558;
   }
 }
