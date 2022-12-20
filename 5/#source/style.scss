@@ -9,6 +9,11 @@ body {
 
 .wrapper {
   background: #fff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-self: center;
+  align-self: center;
 }
 
 .header {
@@ -114,7 +119,6 @@ body {
             letter-spacing: 0.2rem;
             text-transform: uppercase;
             color: #fd8558;
-            // margin-top: 4.1rem;
             margin-bottom: 3.4rem;
           }
           .dl__text {
@@ -268,23 +272,29 @@ body {
       }
       .text__button {
         align-self: flex-end;
-        & a {
+        a {
           font-weight: 700;
           font-size: 1.5rem;
           line-height: 3rem;
-          color: #fff;
-          padding: 1.3rem 3.7rem;
-          background: #fd8558;
+          color: #ffffff;
+        }
+        background: #fd8558;
+        padding: 1.3rem 3.7rem;
+        z-index: 1;
+        &:hover {
+          opacity: 90%;
         }
       }
     }
     .works__header {
-      font-weight: 400;
-      font-size: 20rem;
+      p{
+        font-weight: 400;
+      font-size: 18rem;
       line-height: 18rem;
       text-align: right;
       color: #f7f7f7;
       margin-right: 2.7rem;
+      }
     }
   }
 }
