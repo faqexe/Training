@@ -8,12 +8,13 @@ body {
 }
 
 .wrapper {
+  width: 1440px;
   background: #fff;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-self: center;
   align-self: center;
+  margin: 0 auto;
 }
 
 .header {
