@@ -1,0 +1,62 @@
+/** Прижатый футер и липкий хэдер */
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+html,
+body {
+   /** 2 - Прописываем занимаемую высоту у родителей */
+   /** чтобы и у wrapper были реальные 100% */
+   height: 100%;
+}
+
+body {
+   font-family: sans-serif;
+}
+
+/** 1 - Изначально прописываем свойсва здесь */
+.wrapper {
+   /* Занимает по высоте всю страницу */
+   /* Значение внутри родителя */
+   min-height: 100%;
+   /** 3 - Прописываем свойства flex */
+   display: flex;
+   flex-direction: column;
+}
+
+.container {
+   max-width: 1000px;
+   padding: 25px 10px;
+   margin: 0 auto;
+}
+
+.header {
+   height: 200px;
+   background-color: #0db06e;
+   /** 5 - Делаем липкий хэдер */
+   /* Работает только в рамках элемента родителя, которому мы это задаем */
+   position: sticky;
+   top: 0;
+   /* Для работы в старых браузерах
+   position: fixed
+   top: 0;
+   left: 0;
+   right: 0; */
+}
+
+.main {
+   /* Для работы в старых браузерах
+   padding-top: 200px */
+   background-color: #ccc;
+   /** 4 - Делаем так, чтобы main занимал все расстояние */
+   /** между header и footer */
+   /** и тем самым прижимаем к низу footer */
+   flex-grow: 1;
+}
+
+.footer {
+   height: 200px;
+   background-color: #000;
+}
