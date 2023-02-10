@@ -1,3 +1,1 @@
-# Training
-
-Training projects
+Тренировка верстки макетов
